@@ -1,7 +1,15 @@
 # algorithm
 algorithm's record
 
-### [leetcode](https://leetcode.com/)
+
+### 1. [newcoder](https://www.nowcoder.com/)
+
+NO  |   title   |   solution    |   desc
+----|-----------|---------------|---------
+1   |[Complexity]()| [Q001Complexity](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/junior/Q001Complexity.java)    | 算法复杂度介绍
+
+
+### 2. [leetcode](https://leetcode.com/)
 
 NO  |   title   |   solution    |   desc
 ----|-----------|---------------|---------
