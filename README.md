@@ -1,7 +1,7 @@
 # algorithm
 algorithm's record
 
-###[leetcode](https://leetcode.com/)
+### [leetcode](https://leetcode.com/)
 
 NO  |   desc    |   solution
 ----|-----------|------------
