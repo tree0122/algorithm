@@ -22,3 +22,4 @@ NO  |   title   |   solution    |   desc
 6   |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [P0005LongestPalindromicSubstr](./src/main/java/com/tree/core/algorithm/leetcode/P0006ZigZagConversion.java)    | 之字转化
 7   |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [P0007ReverseInteger](./src/main/java/com/tree/core/algorithm/leetcode/P0007ReverseInteger.java)    | 整数倒置
 8   |[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [P0008StringToInteger](./src/main/java/com/tree/core/algorithm/leetcode/P0008StringToInteger.java)    | 字符串转数字
+9   |[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [P0009PalindromeNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0009PalindromeNumber.java)    | 回文整数
