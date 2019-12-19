@@ -19,3 +19,4 @@ NO  |   title   |   solution    |   desc
 3   |[longest substr without repeating character](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [P0003LSBNoRepeatChar](./src/main/java/com/tree/core/algorithm/leetcode/P0002AddTwoNumbers.java)    | 最长无重复子串
 4   |[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [P0003LSBNoRepeatChar](./src/main/java/com/tree/core/algorithm/leetcode/P0004MedianOfTwoSortedArrays.java)    | 两有序数组的中位数
 5   |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [P0005LongestPalindromicSubstr](./src/main/java/com/tree/core/algorithm/leetcode/P0005LongestPalindromicSubstr.java)    | 最长回文子串
+6   |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [P0005LongestPalindromicSubstr](./src/main/java/com/tree/core/algorithm/leetcode/P0006ZigZagConversion.java)    | 之字转化
