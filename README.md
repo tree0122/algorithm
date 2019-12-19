@@ -16,3 +16,4 @@ NO  |   title   |   solution    |   desc
 ----|-----------|---------------|---------
 1   |[Two Sum](https://leetcode.com/problems/two-sum/)| [P0001TwoSum](./src/main/java/com/tree/core/algorithm/leetcode/P0001TwoSum.java)    | 求数组中两数和为sum
 2   |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [P0002AddTwoNumbers](./src/main/java/com/tree/core/algorithm/leetcode/P0002AddTwoNumbers.java)    | 两个大数之和
+2   |[longest substr without repeating character](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [P0003LSBNoRepeatChar](./src/main/java/com/tree/core/algorithm/leetcode/P0002AddTwoNumbers.java)    | 最长无重复子串
