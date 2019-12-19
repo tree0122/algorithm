@@ -20,3 +20,4 @@ NO  |   title   |   solution    |   desc
 4   |[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [P0003LSBNoRepeatChar](./src/main/java/com/tree/core/algorithm/leetcode/P0004MedianOfTwoSortedArrays.java)    | 两有序数组的中位数
 5   |[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [P0005LongestPalindromicSubstr](./src/main/java/com/tree/core/algorithm/leetcode/P0005LongestPalindromicSubstr.java)    | 最长回文子串
 6   |[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)| [P0005LongestPalindromicSubstr](./src/main/java/com/tree/core/algorithm/leetcode/P0006ZigZagConversion.java)    | 之字转化
+7   |[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [P0007ReverseInteger](./src/main/java/com/tree/core/algorithm/leetcode/P0007ReverseInteger.java)    | 整数倒置
