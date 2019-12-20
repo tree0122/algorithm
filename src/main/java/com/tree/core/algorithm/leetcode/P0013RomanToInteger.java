@@ -1,7 +1,5 @@
 package com.tree.core.algorithm.leetcode;
 
-import org.junit.Test;
-
 /**
  * Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
  *
@@ -52,11 +50,6 @@ public class P0013RomanToInteger {
             i++;
         }
         return j == p.length();
-    }
-
-    @Test
-    public void test(){
-        System.out.println(romanToInt("III"));
     }
 
 }
