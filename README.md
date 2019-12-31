@@ -10,6 +10,7 @@ NO  |   title   |   solution    |   desc
 2   |[KMP]()| [Q020101KMP](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020101KMP.java)    | KMP
 3   |[是否仅一子串组成]()| [Q020102StringMadeOfOnlyOneSubstr](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020102StringMadeOfOnlyOneSubstr.java)    | 是否仅一子串组成(kmp应用)
 4   |[找字符串]()| [Q020103SuppleString](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020103SuppleString.java)    | 找到字符串,使原串变两倍(kmp应用)
+4   |[两个树是否相互包含]()| [Q020104TreeContainAnother](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020104TreeContainAnother.java)    | 两树相互包含(kmp应用)
 150   |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
