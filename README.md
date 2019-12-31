@@ -8,7 +8,8 @@ NO  |   title   |   solution    |   desc
 ----|-----------|---------------|---------
 1   |[Complexity]()| [Q010101Complexity](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/junior/Q010101Complexity.java)    | 算法复杂度介绍
 2   |[KMP]()| [Q020101KMP](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020101KMP.java)    | KMP
-3   |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
+2   |[是否仅一子串组成]()| [Q020102StringMadeOfOnlyOneSubstr](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020102StringMadeOfOnlyOneSubstr.java)    | 是否仅一子串组成(kmp应用)
+150   |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
 ### 2. [leetcode](https://leetcode.com/)
