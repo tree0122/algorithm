@@ -7,7 +7,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 有若干个城市, 任何两个城市之间的距离都是确定的, 现要求一旅行商从某城市出发必须经过每一个城市且只在一个城市逗留一次, 最后回到出发的城市,
  * 问如何事先确定一条最短的线路已保证其旅行的费用最少？
  */
-public class Q0806TravelSalesmanProblem {
+public class Q020806TravelSalesmanProblem {
 
     public int minCost(int[][] p){
         int n = p.length;

@@ -6,8 +6,9 @@ algorithm's record
 
 NO  |   title   |   solution    |   desc
 ----|-----------|---------------|---------
-1   |[Complexity]()| [Q001Complexity](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/junior/Q001Complexity.java)    | 算法复杂度介绍
-2   |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q0806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q0806TravelSalesmanProblem.java)    | 旅行商问题
+1   |[Complexity]()| [Q010101Complexity](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/junior/Q010101Complexity.java)    | 算法复杂度介绍
+2   |[KMP]()| [Q020101KMP](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020101KMP.java)    | KMP
+3   |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
 ### 2. [leetcode](https://leetcode.com/)
