@@ -24,7 +24,7 @@ public class Q020203SlideWindow {
         }
         LinkedList<Integer> queue = new LinkedList<>();
         int i = 0;
-        int j = a.length - 1;
+        int j = 0;
         while (j < a.length){
             //右边尝试添加新的元素
             while (!queue.isEmpty() && a[queue.peekLast()] <= a[j]){
