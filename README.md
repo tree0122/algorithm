@@ -18,6 +18,7 @@ NO  |   title   |   solution    |   desc
 10  |[滑动窗口最大值]()| [Q020204SlideWindowMaxArray](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020204SlideWindowMaxArray.java)    | 固定大小滑动窗口内最大值
 11  |[小于num的所有子数组数量]()| [Q020205AllLessNumSubarray](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020205AllLessNumSubarray.java)    | 小于num的所有子数组数量
 12  |[单调栈]()| [Q020206MonotoneStack](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020206MonotoneStack.java)    | 单调栈
+12  |[最大子矩阵]()| [Q020302MaxRectangle](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020302MaxRectangle.java)    | 最大子矩阵
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
