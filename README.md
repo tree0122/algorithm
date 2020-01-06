@@ -29,6 +29,7 @@ NO  |   title   |   solution    |   desc
 21  |[最大活跃度]()| [Q020503MaxHappy](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020503MaxHappy.java)    | 最大活跃度
 22  |[二叉树判断]()| [Q020504IBT](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020504IBT.java)    | 是否平衡二叉树 搜索二叉树 完全二叉树
 23  |[字符串表达式的值]()| [Q020602ExpressionCompute](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020602ExpressionCompute.java)    | 字符串表达式的值
+24  |[换钱]()| [Q020702CoinWays](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020702CoinWays.java)    | 换钱的不同方法
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
