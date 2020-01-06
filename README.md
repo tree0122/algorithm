@@ -30,6 +30,7 @@ NO  |   title   |   solution    |   desc
 22  |[二叉树判断]()| [Q020504IBT](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020504IBT.java)    | 是否平衡二叉树 搜索二叉树 完全二叉树
 23  |[字符串表达式的值]()| [Q020602ExpressionCompute](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020602ExpressionCompute.java)    | 字符串表达式的值
 24  |[换钱]()| [Q020702CoinWays](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020702CoinWays.java)    | 换钱的不同方法
+25  |[和为aim的最长子数组(全正数)]()| [Q020802LongestSubarraySumWithPositive](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020802LongestSubarraySumWithPositive.java)    | 和为aim的最长子数组(全正数)
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
