@@ -27,6 +27,7 @@ NO  |   title   |   solution    |   desc
 19  |[最大子BST的节点数量]()| [Q020501BiggestSubBSTInTree](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020501BiggestSubBSTInTree.java)    | 最大子BST的节点数量
 20  |[树的最远距离]()| [Q020502MaxDistanceInTree](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020502MaxDistanceInTree.java)    | 树的最远距离
 21  |[最大活跃度]()| [Q020503MaxHappy](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020503MaxHappy.java)    | 最大活跃度
+22  |[二叉树判断]()| [Q020504IBT](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020504IBT.java)    | 是否平衡二叉树 搜索二叉树 完全二叉树
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
