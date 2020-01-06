@@ -32,6 +32,7 @@ NO  |   title   |   solution    |   desc
 24  |[换钱]()| [Q020702CoinWays](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020702CoinWays.java)    | 换钱的不同方法
 25  |[和为aim的最长子数组(全正数)]()| [Q020802LongestSubarraySumWithPositive](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020802LongestSubarraySumWithPositive.java)    | 和为aim的最长子数组(全正数)
 26  |[和小于等于aim的最长子数组]()| [Q020803LongestSubarraySumLessAim](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020803LongestSubarraySumLessAim.java)    | 和小于等于aim的最长子数组
+27  |[正则匹配]()| [Q020805RegularExpression](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020805RegularExpression.java)    | 正则匹配
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
