@@ -21,6 +21,7 @@ NO  |   title   |   solution    |   desc
 13  |[最大子矩阵]()| [Q020302MaxRectangle](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020302MaxRectangle.java)    | 最大子矩阵
 14  |[morris]()| [Q020304Morris](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020304Morris.java)    | morris遍历
 15  |[建筑轮廓]()| [Q020402BuildingOutline](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020402BuildingOutline.java)    | 建筑轮廓
+16  |[奇偶数相同的最长子数组]()| [Q020403LongestSubarrayOfEqualParity](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020403LongestSubarrayOfEqualParity.java)    | 奇偶数相同的最长子数组
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
