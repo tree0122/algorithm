@@ -36,6 +36,7 @@ NO  |   title   |   solution    |   desc
 28  |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 29  |[矩阵最短路径]()| [Q020901MatrixSmallestPath](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020901MatrixSmallestPath.java)    | 矩阵最短路径
 30  |[最长递增子序列]()| [Q020902LIS](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020902LIS.java)    | 最长递增子序列
+31  |[最长公共子序列]()| [Q020903LCSubsequence](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020903LCSubsequence.java)    | 最长公共子序列
 
 
 ### 2. [leetcode](https://leetcode.com/)
