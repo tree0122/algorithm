@@ -25,6 +25,7 @@ NO  |   title   |   solution    |   desc
 17  |[和为aim的最长子数组]()| [Q020405LongestSumSubarrayLen](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020405LongestSumSubarrayLen.java)    | 和为aim的最长子数组
 18  |[异或和为0的最多子数组数量]()| [Q020406MostEor](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020406MostEor.java)    | 异或和为0的最多子数组数量
 19  |[最大子BST的节点数量]()| [Q020501BiggestSubBSTInTree](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020501BiggestSubBSTInTree.java)    | 最大子BST的节点数量
+20  |[树的最远距离]()| [Q020502MaxDistanceInTree](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020502MaxDistanceInTree.java)    | 树的最远距离
 150 |[TSP](https://blog.csdn.net/joekwok/article/details/4749713)| [Q020806TravelSalesmanProblem](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020806TravelSalesmanProblem.java)    | 旅行商问题
 
 
