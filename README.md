@@ -37,6 +37,7 @@ NO  |   title   |   solution    |   desc
 29  |[矩阵最短路径]()| [Q020901MatrixSmallestPath](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020901MatrixSmallestPath.java)    | 矩阵最短路径
 30  |[最长递增子序列]()| [Q020902LIS](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020902LIS.java)    | 最长递增子序列
 31  |[最长公共子序列]()| [Q020903LCSubsequence](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020903LCSubsequence.java)    | 最长公共子序列
+32  |[最长公共子串]()| [Q020904LCSubstring](./src/main/java/com/tree/core/algorithm/newcoder/zuogod/x04/senior/Q020904LCSubstring.java)    | 最长公共子串
 
 
 ### 2. [leetcode](https://leetcode.com/)
