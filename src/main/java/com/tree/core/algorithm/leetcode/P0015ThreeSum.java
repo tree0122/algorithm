@@ -118,18 +118,14 @@ public class P0015ThreeSum {
             while (j < k){
                 if (nums[j] + nums[k] == target){
                     //add
-                    ArrayList<Integer> list = new ArrayList<>();
-                    list.add(nums[i]);
-                    list.add(nums[j]);
-                    list.add(nums[k]);
-                    ans.add(list);
+                    ans.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     while (j < k && nums[j] == nums[j + 1]){
                         j++;
                     }
                     while (j < k & nums[k] == nums[k - 1]){
                         k--;
                     }
-                    i++;
+                    j++;
                     k--;
                 }else if (nums[j] + nums[k] < target){
                     j++;
