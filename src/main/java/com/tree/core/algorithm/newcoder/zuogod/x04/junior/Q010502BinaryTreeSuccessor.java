@@ -1,7 +1,7 @@
 package com.tree.core.algorithm.newcoder.zuogod.x04.junior;
 
 /**
- * 二叉树的遍历(递归和非递归)
+ * 二叉树的后继和前驱
  */
 public class Q010502BinaryTreeSuccessor {
 
