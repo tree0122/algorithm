@@ -7,6 +7,23 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.junior;
  */
 public class Q010808MinPath {
 
+    public int best(int[][] m){
+        if (m == null || m.length == 0){
+            return 0;
+        }
+        int[] d = new int[m[0].length];
+        d[0] = m[0][0];
+        for (int i = 1; i < d.length; i++) {
+            d[i] = d[i - 1] + m[0][i];
+        }
+        for (int i = 1; i < m.length; i++) {
+            for (int j = 0; j < m[0].length; j++) {
+                d[j] = (j == 0 ? d[j] : Math.min(d[j - 1], d[j])) + m[i][j];
+            }
+        }
+        return d[d.length - 1];
+    }
+
     public int path(int[][] m){
         if (m == null || m.length == 0){
             return 0;
