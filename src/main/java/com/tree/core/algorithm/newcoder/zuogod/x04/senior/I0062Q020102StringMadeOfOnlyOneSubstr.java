@@ -7,7 +7,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  *
  * 给定一个字符串s, 判断s是否仅能由一个子串组成
  */
-public class Q020102StringMadeOfOnlyOneSubstr {
+public class I0062Q020102StringMadeOfOnlyOneSubstr {
 
     public boolean madeOfOneSubstr(String s) {
         if (s == null || s.length() <= 1){

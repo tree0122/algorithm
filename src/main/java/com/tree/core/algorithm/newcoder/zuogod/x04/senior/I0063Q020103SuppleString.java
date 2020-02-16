@@ -7,7 +7,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 给定一个字符串s, 在s后面追加一个字符串m, 合并后的字符串包含两个s
  * 求字符串m, 要求字符串m的长度最小
  */
-public class Q020103SuppleString {
+public class I0063Q020103SuppleString {
 
     public String supple(String s){
         if (s == null || s.length() <= 1){

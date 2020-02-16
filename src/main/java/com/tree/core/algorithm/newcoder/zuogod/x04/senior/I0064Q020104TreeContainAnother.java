@@ -5,7 +5,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  *
  * 两颗树T1和T2, T2是不是T1的子树
  */
-public class Q020104TreeContainAnother {
+public class I0064Q020104TreeContainAnother {
 
     public boolean contains(Node n1, Node n2){
         String s1 = serialize(n1);

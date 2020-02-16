@@ -6,7 +6,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 12104
  * #1#2#1#0#4#
  */
-public class Q020105Manacher {
+public class I0065Q020105Manacher {
 
     public String maxLen(String s){
         if (s == null || s.length() <= 1){

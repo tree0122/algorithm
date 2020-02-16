@@ -5,7 +5,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  *
  * 解决字符串的包含问题
  */
-public class Q020101KMP {
+public class I0061Q020101KMP {
 
     public int search(String s1, String s2){
         if (s1 == null || s1.length() == 0 || s2 == null || s2.length() == 0 || s1.length() < s2.length()){
@@ -50,7 +50,7 @@ public class Q020101KMP {
             if (s1.charAt(i) == s2.charAt(j)){
                 i++;
                 j++;
-            }else {
+            }else {// 不匹配时, j回退j个距离到0, i回退j个距离, 然后比较下个字符
                 j = 0;
                 i = i - j + 1;
             }
@@ -74,6 +74,5 @@ public class Q020101KMP {
         }
         return -1;*/
     }
-
 
 }

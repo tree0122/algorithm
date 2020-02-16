@@ -21,7 +21,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 4. 最终剩下的数字即为pivot, 把大于它的数全放左边, 小于等于它的数全放右边。
  * 5. 判断pivot的位置与k的大小, 有选择的对左边或右边递归
  */
-public class Q020202BFPRT {
+public class I0067Q020202BFPRT {
 
     public int[] kMin(int[] a, int k){
         if (a == null || a.length <= k){

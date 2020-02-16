@@ -8,7 +8,7 @@ import java.util.LinkedList;
  * 介绍窗口以及窗口内最大值或最小值的更新结构
  * 具体结构: 左右下标(确定窗口范围)+双端队列(左边踢出, 右边新增)
  */
-public class Q020203SlideWindow {
+public class I0068Q020203SlideWindow {
 
     /**
      * 窗口内最大值更新结构:
