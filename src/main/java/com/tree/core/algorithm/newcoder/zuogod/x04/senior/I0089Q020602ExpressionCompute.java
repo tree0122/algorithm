@@ -16,7 +16,7 @@ import java.util.LinkedList;
  * 开头或括号部分的开头,则可以没有括号,比如"-3*4"和"(-3*4)"都是合法的。
  * 3.不用考虑计算过程中会发生溢出的情况
  */
-public class Q020602ExpressionCompute {
+public class I0089Q020602ExpressionCompute {
 
     public int getValue(String s){
         if (s == null || s.length() == 0){

@@ -6,7 +6,7 @@ import java.util.HashMap;
  * 子数组奇数,偶数个数相等的最长子数组
  *
  */
-public class Q020403LongestSubarrayOfEqualParity {
+public class I0079Q020404LongestSubarrayOfEqualParity {
 
     public int maxLen(int[] a){
         if (a == null || a.length <= 1){

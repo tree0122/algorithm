@@ -12,7 +12,7 @@ import java.util.*;
  * 例子:给定一个二维数组 [ [1, 3, 3], [2, 4, 4], [5, 6, 1] ]
  * 输出为轮廓线 [ [1, 2, 3], [2, 4, 4], [5, 6, 1] ]
  */
-public class Q020402BuildingOutline {
+public class I0078Q020403BuildingOutline {
 
     public List<List<Integer>> outline(int[][] building){
         if (building == null || building.length == 0){

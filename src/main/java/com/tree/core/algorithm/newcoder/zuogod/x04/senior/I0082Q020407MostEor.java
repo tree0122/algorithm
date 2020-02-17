@@ -12,7 +12,7 @@ import java.util.HashMap;
  *
  * 请返回:分出来的子数组中,异或和为0的子数组最多是多少?
  */
-public class Q020406MostEor {
+public class I0082Q020407MostEor {
 
     public int maxLen(int[] a){
         if (a == null || a.length < 1){

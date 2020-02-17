@@ -5,7 +5,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 于aim的,最长子数组,要求额外空间复杂度O(1),时间
  * 复杂度O(N)
  */
-public class Q020802LongestSubarraySumWithPositive {
+public class I0093Q020801LongestSubarraySumWithPositive {
 
     public int maxLen(int[] a, int aim){
         if (a == null || a.length == 0 || aim <= 0){

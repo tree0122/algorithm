@@ -13,7 +13,7 @@ import java.util.HashMap;
  * 其中有很多的子数组累加和等于7,但是最长的子数组是{3,2,1,1},
  * 所以返回其长度4
  */
-public class Q020405LongestSumSubarrayLen {
+public class I0081Q020406LongestSumSubarrayLen {
 
     public int maxLen(int[] a, int aim){
         if (a == null || a.length < 1){

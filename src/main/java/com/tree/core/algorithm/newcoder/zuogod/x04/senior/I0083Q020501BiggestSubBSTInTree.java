@@ -10,7 +10,7 @@ import java.util.HashMap;
  * 2. 简化信息
  * 3. 改递归
  */
-public class Q020501BiggestSubBSTInTree {
+public class I0083Q020501BiggestSubBSTInTree {
 
     public int maxSize(Node head){
         return process(head).size;

@@ -22,7 +22,7 @@ import java.util.List;
  * matrix[2] = {1 , 4},表示2这个员工的直接上级为1,2这个员工自己的活跃度为4
  * 为了让晚会活跃度最大,应该让1不来,0和2来。最后返回活跃度为10
  */
-public class Q020503MaxHappy {
+public class I0085Q020503MaxHappy {
 
     public int maxDistance(Employee boss){
         int[] ret = process(boss);

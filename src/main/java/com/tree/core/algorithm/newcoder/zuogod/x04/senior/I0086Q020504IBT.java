@@ -9,7 +9,7 @@ import java.util.LinkedList;
  *
  * 判断一棵二叉树是否是完全二叉树
  */
-public class Q020504IBT {
+public class I0086Q020504IBT {
 
     /**
      * 判断一棵二叉树是否是平衡二叉树

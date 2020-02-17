@@ -18,7 +18,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * arr=[3,5],aim=2。
  * 任何方法都无法组成2元。所以返回0
  */
-public class Q020702CoinWays {
+public class I0092Q020702CoinWays {
 
     public int coins(int[] a, int aim){
         if (a == null || a.length == 0 || aim < 0){

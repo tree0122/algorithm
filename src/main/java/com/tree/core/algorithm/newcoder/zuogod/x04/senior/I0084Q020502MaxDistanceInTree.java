@@ -7,7 +7,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  *
  * 求一棵二叉树上的最远距离
  */
-public class Q020502MaxDistanceInTree {
+public class I0084Q020502MaxDistanceInTree {
 
     public int maxDistance(Node head){
         return process(head)[1];
