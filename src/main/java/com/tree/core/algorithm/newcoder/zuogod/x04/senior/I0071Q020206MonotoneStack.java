@@ -10,7 +10,7 @@ import java.util.Map;
  * 作用: 数组中, 任意一个元素a[i], 其左边和右边最近且大于它的元素
  * 结构: 单调栈(栈底->栈顶, 大->小)
  */
-public class Q020206MonotoneStack {
+public class I0071Q020206MonotoneStack {
 
     /**
      * 找出数组a的每个元素, 比其大的的左右最近的元素

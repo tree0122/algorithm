@@ -25,7 +25,7 @@ import java.util.Map;
  * 1 1 1 0
  * 其中, 最大的矩形区域有6个1, 故返回6
  */
-public class Q020302MaxRectangle {
+public class I0072Q020302MaxRectangle {
 
     public int maxSize(int[][] m){
         if (m == null || m.length == 0){

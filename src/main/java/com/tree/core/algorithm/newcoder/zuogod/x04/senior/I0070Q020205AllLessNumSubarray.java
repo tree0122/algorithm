@@ -14,7 +14,7 @@ import java.util.LinkedList;
  *
  * 要求: 时间复杂度O(N)
  */
-public class Q020205AllLessNumSubarray {
+public class I0070Q020205AllLessNumSubarray {
 
     /**
      * 思路:
@@ -24,6 +24,7 @@ public class Q020205AllLessNumSubarray {
      * @param a 数组
      * @param num 目标
      * @return 合要求的子数组个数
+     *
      */
     public int getNum(int[] a, int num){
         if (a == null || a.length == 0){

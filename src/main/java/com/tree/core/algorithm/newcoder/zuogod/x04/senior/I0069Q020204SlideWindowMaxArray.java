@@ -11,7 +11,7 @@ import java.util.LinkedList;
  *
  * 返回窗口内最大值的数组
  */
-public class Q020204SlideWindowMaxArray {
+public class I0069Q020204SlideWindowMaxArray {
 
     public int[] maxWindow(int[] a, int w){
         if (a == null || a.length == 0 || w < 1){
