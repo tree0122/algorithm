@@ -13,7 +13,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  *      a. mostRight的右指针为null, 则mostRight.right = cur, 然后cur左移: cur = cur.left
  *      b. mostRight的右指针为cur, 则mostRight.right = null, 然后cur右移: cur = cur.right
  */
-public class Q020304Morris {
+public class I0073Q020304Morris {
 
     public void in(Node head){
         if (head == null){
