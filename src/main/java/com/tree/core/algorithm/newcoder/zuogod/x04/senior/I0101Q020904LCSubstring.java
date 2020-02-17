@@ -13,7 +13,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 如果str1长度为M,str2长度为N,实现时间复杂度为O(MN),额
  * 外空间复杂度为O(1)的方法。
  */
-public class Q020904LCSubstring {
+public class I0101Q020904LCSubstring {
 
     public int lcs(String s1, String s2){
         int len = 0;

@@ -13,7 +13,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 【要求】
  * 如果arr长度为N,请实现时间复杂度为O(NlogN)的方法。
  */
-public class Q020902LIS {
+public class I0099Q020902LIS {
 
     public int[] best(int[] a){
         if (a == null || a.length <= 1){

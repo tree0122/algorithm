@@ -10,7 +10,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * str1="1A2C3D4B56",str2="B1D23CA45B6A"。
  * "123456"或者"12C4B6"都是最长公共子序列,返回哪一个都行
  */
-public class Q020903LCSubsequence {
+public class I0100Q020903LCSubsequence {
 
     public int lcs(String s1, String s2){
         return process(s1, s2, s1.length() - 1, s2.length() - 1);

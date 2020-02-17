@@ -20,7 +20,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 【要求】
  * 额外空间复杂度O( min {m , n})
  */
-public class Q020901MatrixSmallestPath {
+public class I0098Q020901MatrixSmallestPath {
 
     public int path(int[][] m){
         if (m == null || m.length == 0){
