@@ -4,7 +4,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 给定一个数组arr,值可正,可负,可0;一个整数aim,求累加
  * 和小于等于aim的,最长子数组,要求时间复杂度O(N)
  */
-public class Q020803LongestSubarraySumLessAim {
+public class I0094Q020802LongestSubarraySumLessAim {
 
     public int maxLen(int[] a, int aim){
         if (a == null || a.length == 0){

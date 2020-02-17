@@ -20,7 +20,7 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.senior;
  * 的'.'字符,但是".*"之前还有一个'.'字符,该字符不受'*'的影响,
  * 所以str起码有一个字符才能被exp匹配。所以返回false。
  */
-public class Q020805RegularExpression {
+public class I0096Q020804RegularExpression {
 
     public boolean match(String s, String e){
         if (s == null || s.length() == 0 || e == null || e.length() == 0){
