@@ -62,3 +62,4 @@ NO  |   title   |   solution    |   desc
 16  |[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [P0016ThreeSumClosest](./src/main/java/com/tree/core/algorithm/leetcode/P0016ThreeSumClosest.java)    | 三个数和为target
 17  |[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [P0017LetterCombinationsOfOnePhoneNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0017LetterCombinationsOfOnePhoneNumber.java)    | 手机按键的字符串组合
 18  |[4sum](https://leetcode.com/problems/4sum/)| [P0018FourSum](./src/main/java/com/tree/core/algorithm/leetcode/P0018FourSum.java)    | 4sum
+23  |[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [P0023MergeKSortedList](./src/main/java/com/tree/core/algorithm/leetcode/P0023MergeKSortedList.java)    | 合并K个排序链表
