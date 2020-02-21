@@ -68,3 +68,4 @@ NO  |   title   |   solution    |   desc
 239 |[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| [P0239SlidingWindowMax](./src/main/java/com/tree/core/algorithm/leetcode/P0239SlidingWindowMax.java)    | 滑动窗口最大值
 253 |[会议室II](https://leetcode-cn.com/problems/meeting-rooms-ii/)| [P0253MeetingRoomII](./src/main/java/com/tree/core/algorithm/leetcode/P0253MeetingRoomII.java)    | 会议室II
 264 |[丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)| [P0264UglyNumberII](./src/main/java/com/tree/core/algorithm/leetcode/P0264UglyNumberII.java)    | 丑数II
+295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
