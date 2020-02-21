@@ -67,3 +67,4 @@ NO  |   title   |   solution    |   desc
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
 239 |[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| [P0239SlidingWindowMax](./src/main/java/com/tree/core/algorithm/leetcode/P0239SlidingWindowMax.java)    | 滑动窗口最大值
 253 |[会议室II](https://leetcode-cn.com/problems/meeting-rooms-ii/)| [P0253MeetingRoomII](./src/main/java/com/tree/core/algorithm/leetcode/P0253MeetingRoomII.java)    | 会议室II
+264 |[丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)| [P0264UglyNumberII](./src/main/java/com/tree/core/algorithm/leetcode/P0264UglyNumberII.java)    | 丑数II
