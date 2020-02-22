@@ -26,6 +26,31 @@ import java.util.PriorityQueue;
  */
 public class P0313SuperUglyNumber {
 
+    public int betterUnderstand(int n, int[] primes){
+        if (n < 0 || primes == null || primes.length == 0){
+            return 0;
+        }
+        int[] t = new int[primes.length];
+        int[] d = new int[n];
+        d[0] = 1;
+        int min = Integer.MAX_VALUE;
+        for (int i = 1; i < n; i++) {
+            min = primes[0] * d[t[0]];
+            for (int j = 1; j < primes.length; j++) {
+                if (min > primes[j] * d[t[j]]){
+                    min = primes[j] * d[t[j]];
+                }
+            }
+            for (int j = 0; j < primes.length; j++) {
+                if (min == primes[j] * d[t[j]]){
+                    t[j]++;
+                }
+            }
+            d[i] = min;
+        }
+        return d[n - 1];
+    }
+
     public int nthSuperUglyNumber(int n, int[] primes){
         if (n < 0 || primes == null || primes.length == 0){
             return 0;
