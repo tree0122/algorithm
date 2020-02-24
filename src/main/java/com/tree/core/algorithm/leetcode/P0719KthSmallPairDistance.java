@@ -36,8 +36,8 @@ public class P0719KthSmallPairDistance {
             return -1;
         }
         Arrays.sort(nums);
-        int min = nums[0];
-        int max = nums[nums.length - 1];
+        int min = 0;
+        int max = nums[nums.length - 1] - nums[0];
         while (min < max){
             int mid = (min + max) / 2;
             int count = 0;
