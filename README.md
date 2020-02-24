@@ -77,3 +77,4 @@ NO  |   title   |   solution    |   desc
 407 |[接雨水II](https://leetcode-cn.com/problems/trapping-rain-water-ii/)| [P0407TrapRainWaterII](./src/main/java/com/tree/core/algorithm/leetcode/P0407TrapRainWaterII.java)    | [接雨水II](https://blog.csdn.net/weixin_42054167/article/details/91989108)
 451 |[字符频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)| [P0451SortCharByFrequency](./src/main/java/com/tree/core/algorithm/leetcode/P0451SortCharByFrequency.java)    | 字符频率排序
 502 |[IPO](https://leetcode-cn.com/problems/ipo/)| [P0502IPO](./src/main/java/com/tree/core/algorithm/leetcode/P0502IPO.java)    | IPO
+692 |[前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)| [P0692TopKFrequentWord](./src/main/java/com/tree/core/algorithm/leetcode/P0692TopKFrequentWord.java)    | 前K个高频单词
