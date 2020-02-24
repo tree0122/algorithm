@@ -78,3 +78,4 @@ NO  |   title   |   solution    |   desc
 451 |[字符频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)| [P0451SortCharByFrequency](./src/main/java/com/tree/core/algorithm/leetcode/P0451SortCharByFrequency.java)    | 字符频率排序
 502 |[IPO](https://leetcode-cn.com/problems/ipo/)| [P0502IPO](./src/main/java/com/tree/core/algorithm/leetcode/P0502IPO.java)    | IPO
 692 |[前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)| [P0692TopKFrequentWord](./src/main/java/com/tree/core/algorithm/leetcode/P0692TopKFrequentWord.java)    | 前K个高频单词
+719 |[第k小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)| [P0719KthSmallPairDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0719KthSmallPairDistance.java)    | 第k小的距离对
