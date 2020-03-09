@@ -82,4 +82,5 @@ NO  |   title   |   solution    |   desc
 692 |[前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)| [P0692TopKFrequentWord](./src/main/java/com/tree/core/algorithm/leetcode/P0692TopKFrequentWord.java)    | 前K个高频单词
 719 |[第k小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)| [P0719KthSmallPairDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0719KthSmallPairDistance.java)    | 第k小的距离对
 743 |[网络延迟时间](https://leetcode-cn.com/problems/network-delay-time/)| [P0743NetworkDelayTime](./src/main/java/com/tree/core/algorithm/leetcode/P0743NetworkDelayTime.java)    | 网络延迟时间
+759 |[员工空闲时间](https://blog.csdn.net/weixin_34258782/article/details/85975907)| [P0759EmployeeFreeTime](./src/main/java/com/tree/core/algorithm/leetcode/P0759EmployeeFreeTime.java)    | 员工空闲时间
 767 |[重构字符串](https://leetcode-cn.com/problems/reorganize-string/)| [P0767ReorganizeString](./src/main/java/com/tree/core/algorithm/leetcode/P0767ReorganizeString.java)    | 重构字符串
