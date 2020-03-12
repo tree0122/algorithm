@@ -86,3 +86,4 @@ NO  |   title   |   solution    |   desc
 767 |[重构字符串](https://leetcode-cn.com/problems/reorganize-string/)| [P0767ReorganizeString](./src/main/java/com/tree/core/algorithm/leetcode/P0767ReorganizeString.java)    | 重构字符串
 778 |[水位上升的泳池](https://leetcode-cn.com/problems/swim-in-rising-water/)| [P0778SwimInWater](./src/main/java/com/tree/core/algorithm/leetcode/P0778SwimInWater.java)    | 水位上升的泳池
 786 |[第K个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)| [P0786KthSmallPrime](./src/main/java/com/tree/core/algorithm/leetcode/P0786KthSmallPrime.java)    | 第K个最小的素数分数
+857 |[K个工人的最低成本](https://leetcode-cn.com/problems/minimum-cost-to-hire-k-workers/)| [P0857MinCostHireWorkers](./src/main/java/com/tree/core/algorithm/leetcode/P0857MinCostHireWorkers.java)    | K个工人的最低成本
