@@ -85,3 +85,4 @@ NO  |   title   |   solution    |   desc
 759 |[员工空闲时间](https://blog.csdn.net/weixin_34258782/article/details/85975907)| [P0759EmployeeFreeTime](./src/main/java/com/tree/core/algorithm/leetcode/P0759EmployeeFreeTime.java)    | 员工空闲时间
 767 |[重构字符串](https://leetcode-cn.com/problems/reorganize-string/)| [P0767ReorganizeString](./src/main/java/com/tree/core/algorithm/leetcode/P0767ReorganizeString.java)    | 重构字符串
 778 |[水位上升的泳池](https://leetcode-cn.com/problems/swim-in-rising-water/)| [P0778SwimInWater](./src/main/java/com/tree/core/algorithm/leetcode/P0778SwimInWater.java)    | 水位上升的泳池
+786 |[第K个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)| [P0786KthSmallPrime](./src/main/java/com/tree/core/algorithm/leetcode/P0786KthSmallPrime.java)    | 第K个最小的素数分数
