@@ -1,8 +1,5 @@
 package com.tree.core.algorithm.leetcode;
 
-import java.util.ArrayDeque;
-import java.util.HashMap;
-
 /**
  * Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
  *
@@ -23,6 +20,7 @@ public class P0021MergeTwoSortedLists {
                 cur.next = l2;
                 l2 = l2.next;
             }
+            cur = cur.next;
         }
         if (l1 != null){
             cur.next = l1;
