@@ -67,6 +67,7 @@ NO  |   title   |   solution    |   desc
 23  |[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [P0023MergeKSortedList](./src/main/java/com/tree/core/algorithm/leetcode/P0023MergeKSortedList.java)    | 合并K个排序链表
 26  |[remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [P0026RemoveDuplicatesFromSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0026RemoveDuplicatesFromSortedArray.java)    | 删除有序数组的重复元素
 27  |[remove element](https://leetcode.com/problems/remove-element/)| [P0027RemoveElement](./src/main/java/com/tree/core/algorithm/leetcode/P0027RemoveElement.java)    | 删除数组中值为val的元素
+28  |[implement strstr](https://leetcode.com/problems/implement-strstr/)| [P0028ImplementStrstr](./src/main/java/com/tree/core/algorithm/leetcode/P0028ImplementStrstr.java)    | kmp
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
 239 |[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| [P0239SlidingWindowMax](./src/main/java/com/tree/core/algorithm/leetcode/P0239SlidingWindowMax.java)    | 滑动窗口最大值
