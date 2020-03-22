@@ -2,6 +2,7 @@ package com.tree.core.algorithm.leetcode;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -47,6 +48,41 @@ public class P0107BinaryTreeLevelOrderTraversal2 {
         if (node.right != null){
             process(node.right, h+ 1, list);
         }
+    }
+
+    /**
+     * queue遍历
+     *
+     * @param root
+     * @return
+     */
+    public List<List<Integer>> traversal(TreeNode root){
+        if (root == null){
+            return new ArrayList<>();
+        }
+        LinkedList<List<Integer>> ans = new LinkedList<>();
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        ArrayList<Integer> levelData = new ArrayList<>(); // 某一层的结点数据
+        TreeNode tmpNode = null;
+        // i是某一层的结点个数
+        for (int i = queue.size(); !queue.isEmpty(); ) {
+            if (i == 0){
+                ans.addFirst(levelData);
+                levelData = new ArrayList<>();
+                i = queue.size();
+            }
+            tmpNode = queue.poll();
+            levelData.add(tmpNode.val);
+            i--;
+            if (tmpNode.left != null){
+                queue.offer(tmpNode.left);
+            }
+            if (tmpNode.right != null){
+                queue.offer(tmpNode.right);
+            }
+        }
+        return ans;
     }
 
     public class TreeNode {
