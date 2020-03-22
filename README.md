@@ -70,6 +70,8 @@ NO  |   title   |   solution    |   desc
 28  |[implement strstr](https://leetcode.com/problems/implement-strstr/)| [P0028ImplementStrstr](./src/main/java/com/tree/core/algorithm/leetcode/P0028ImplementStrstr.java)    | kmp
 35  |[search insert position](https://leetcode.com/problems/search-insert-position/)| [P0035SearchInsertPosition](./src/main/java/com/tree/core/algorithm/leetcode/P0035SearchInsertPosition.java)    | 二分查找
 38  |[count and say](https://leetcode.com/problems/count-and-say/)| [P0038CountAndSay](./src/main/java/com/tree/core/algorithm/leetcode/P0038CountAndSay.java)    | count and say
+53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./src/main/java/com/tree/core/algorithm/leetcode/P0053MaximumSubarray.java)    | 最大子数组和
+
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
 239 |[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| [P0239SlidingWindowMax](./src/main/java/com/tree/core/algorithm/leetcode/P0239SlidingWindowMax.java)    | 滑动窗口最大值
