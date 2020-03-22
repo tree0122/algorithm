@@ -28,17 +28,17 @@ public class P0067AddBinary {
         int i = a.length() - 1, j = b.length() - 1;
         StringBuilder sb = new StringBuilder();
         while (i >= 0 && j >= 0){
-            int cSum = (a.charAt(i) - zero) + (b.charAt(j) - zero) + carry;
+            int cSum = (a.charAt(i--) - zero) + (b.charAt(j--) - zero) + carry;
             carry = cSum / 2;
             sb.append(cSum % 2);
         }
         while (i >= 0){
-            int cSum = a.charAt(i) - zero + carry;
+            int cSum = a.charAt(i--) - zero + carry;
             carry = cSum / 2;
             sb.append(cSum % 2);
         }
         while (j >= 0){
-            int cSum = b.charAt(i) - zero + carry;
+            int cSum = b.charAt(j--) - zero + carry;
             carry = cSum / 2;
             sb.append(cSum % 2);
         }
