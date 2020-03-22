@@ -80,6 +80,7 @@ NO  |   title   |   solution    |   desc
 88  |[merge sorted array](https://leetcode.com/problems/merge-sorted-array/)| [P0088MergeSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0088MergeSortedArray.java)    | 合并有序数组
 100  |[is same tree](https://leetcode.com/problems/same-tree/)| [P0100SameTree](./src/main/java/com/tree/core/algorithm/leetcode/P0100SameTree.java)    | 相同的树
 101  |[symmetric tree](https://leetcode.com/problems/symmetric-tree/)| [P0101SymmetricTree](./src/main/java/com/tree/core/algorithm/leetcode/P0101SymmetricTree.java)    | 对称树
+104  |[maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [P0104MaximumDepthOfBinaryTree](./src/main/java/com/tree/core/algorithm/leetcode/P0104MaximumDepthOfBinaryTree.java)    | 树的高度
 
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
