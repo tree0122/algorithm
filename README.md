@@ -75,6 +75,7 @@ NO  |   title   |   solution    |   desc
 60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./src/main/java/com/tree/core/algorithm/leetcode/P0060PlusOne.java)    | 加一
 67  |[add binary](https://leetcode.com/problems/add-binary/)| [P0067AddBinary](./src/main/java/com/tree/core/algorithm/leetcode/P0067AddBinary.java)    | 二进制字符串相加
 69  |[sqrt](https://leetcode.com/problems/sqrtx/)| [P0069Sqrt](./src/main/java/com/tree/core/algorithm/leetcode/P0069Sqrt.java)    | 开方
+70  |[climbing stairs](https://leetcode.com/problems/climbing-stairs/)| [P0070ClimbingStairs](./src/main/java/com/tree/core/algorithm/leetcode/P0070ClimbingStairs.java)    | 爬梯子(斐波那契数列)
 
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
