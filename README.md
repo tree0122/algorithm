@@ -91,6 +91,7 @@ NO  |   title   |   solution    |   desc
 121  |[best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [P0121BestTimeToBuyAndSellStock](./src/main/java/com/tree/core/algorithm/leetcode/P0121BestTimeToBuyAndSellStock.java)    | 股票的最佳购入卖出时机
 122  |[best time to buy and sell stock 2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [P0122BestTimeToBuyAndSellStock2](./src/main/java/com/tree/core/algorithm/leetcode/P0122BestTimeToBuyAndSellStock2.java)    | 股票的最佳购入卖出时机2
 125  |[valid palindrome](https://leetcode.com/problems/valid-palindrome/)| [P0125ValidPalindrome](./src/main/java/com/tree/core/algorithm/leetcode/P0125ValidPalindrome.java)    | 回文字符串
+136  |[single number](https://leetcode.com/problems/single-number/)| [P0136SingleNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0136SingleNumber.java)    | 单个整数
  |  | |
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
