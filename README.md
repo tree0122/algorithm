@@ -86,6 +86,7 @@ NO  |   title   |   solution    |   desc
 110  |[balanced binary tree](https://leetcode.com/problems/balanced-binary-tree/)| [P0110BalancedBinaryTree](./src/main/java/com/tree/core/algorithm/leetcode/P0110BalancedBinaryTree.java)    | 是否是平衡二叉树
 111  |[minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [P0111MinimumDepthOfBinaryTree](./src/main/java/com/tree/core/algorithm/leetcode/P0111MinimumDepthOfBinaryTree.java)    | 二叉树最小深度
 112  |[path sum](https://leetcode.com/problems/path-sum/)| [P0112PathSum](./src/main/java/com/tree/core/algorithm/leetcode/P0112PathSum.java)    | 树路径和
+118  |[pascals triangle](https://leetcode.com/problems/pascals-triangle/)| [P0118PascalTriangle](./src/main/java/com/tree/core/algorithm/leetcode/P0118PascalTriangle.java)    | 帕斯卡三角
  |  | |
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
