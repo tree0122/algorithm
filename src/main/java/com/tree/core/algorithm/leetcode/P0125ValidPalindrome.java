@@ -22,10 +22,10 @@ public class P0125ValidPalindrome {
         }
         s = s.toLowerCase();
         for (int i = 0, j = s.length() - 1; i < j;) {
-            while (!check(s.charAt(i))){
+            while (i < j && !check(s.charAt(i))){
                 i++;
             }
-            while (!check(s.charAt(j))){
+            while (i < j && !check(s.charAt(j))){
                 j--;
             }
             if (s.charAt(i++) != s.charAt(j--)){
