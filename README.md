@@ -94,6 +94,7 @@ NO  |   title   |   solution    |   desc
 136  |[single number](https://leetcode.com/problems/single-number/)| [P0136SingleNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0136SingleNumber.java)    | 单个整数
 141  |[linked list cycle](https://leetcode.com/problems/linked-list-cycle/)| [P0141LinkedListCircle](./src/main/java/com/tree/core/algorithm/leetcode/P0141LinkedListCircle.java)    | 是否环形链表
 155  |[min stack](https://leetcode.com/problems/min-stack/)| [P0155MinStack](./src/main/java/com/tree/core/algorithm/leetcode/P0155MinStack.java)    | 最小栈
+157  |[read characters](https://leetcode.com/problems/read-n-characters-given-read4)| [P0157ReadNCharactersGivenRead4](./src/main/java/com/tree/core/algorithm/leetcode/P0157ReadNCharactersGivenRead4.java)    | [读取N个字符](https://www.jianshu.com/p/cbdb9864d5a0)
  |  | |
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
