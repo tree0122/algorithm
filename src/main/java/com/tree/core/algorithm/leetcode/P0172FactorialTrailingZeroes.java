@@ -27,6 +27,9 @@ public class P0172FactorialTrailingZeroes {
         return cnt;
     }
 
+    public int awesome(int n){
+        return n == 0 ? 0 : n / 5 + awesome(n / 5);
+    }
 
 
     @Test
