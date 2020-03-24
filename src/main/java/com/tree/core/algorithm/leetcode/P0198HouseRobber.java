@@ -18,6 +18,14 @@ package com.tree.core.algorithm.leetcode;
  */
 public class P0198HouseRobber {
 
+    /**
+     * 思路: d[i]表示一定抢nums[i]的情况下,在[0-i]的最大收获
+     * 状态方程: d[i] = nums[i] + Math.max(d[i-2], d[i-3])
+     * 遍历d数组, 找出其中的最大值
+     *
+     * @param nums
+     * @return
+     */
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0){
             return 0;
@@ -43,6 +51,23 @@ public class P0198HouseRobber {
             max = Math.max(max, t);
         }
         return max;
+    }
+
+    public int awesome(int[] nums){
+        if (nums == null || nums.length == 0){
+            return 0;
+        }
+        if (nums.length == 1){
+            return nums[0];
+        }
+        //思路: d[i]表示[0, i]范围内的最大收获, 方程d[i] = Math.max(d[i-1], d[i-2]+nums[i])
+        int i = nums[0], j = Math.max(nums[0], nums[1]), t = j;
+        for (int k = 2; k < nums.length; k++) {
+            t = Math.max(j, i + nums[k]);
+            i = j;
+            j = t;
+        }
+        return t;
     }
 
 }
