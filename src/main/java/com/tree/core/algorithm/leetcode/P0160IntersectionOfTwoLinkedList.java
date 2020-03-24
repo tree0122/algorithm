@@ -1,5 +1,8 @@
 package com.tree.core.algorithm.leetcode;
 
+/**
+ * Write a program to find the node at which the intersection of two singly linked lists begins.
+ */
 public class P0160IntersectionOfTwoLinkedList {
 
     public ListNode getIntersectionNode(ListNode headA, ListNode headB){
