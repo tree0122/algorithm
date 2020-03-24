@@ -98,6 +98,7 @@ NO  |   title   |   solution    |   desc
 160  |[intersection of two linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| [P0160IntersectionOfTwoLinkedList](./src/main/java/com/tree/core/algorithm/leetcode/P0160IntersectionOfTwoLinkedList.java)    | 两个链表的交叉点
 167  |[two sum ii input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [P0167TwoSum2InputArrayIsSorted](./src/main/java/com/tree/core/algorithm/leetcode/P0167TwoSum2InputArrayIsSorted.java)    | 两元素之和(数组有序)
 168  |[excel sheet column title](https://leetcode.com/problems/excel-sheet-column-title/)| [P0168ExcelSheetColumnTitle](./src/main/java/com/tree/core/algorithm/leetcode/P0168ExcelSheetColumnTitle.java)    | excel列标题
+169  |[majority element](https://leetcode.com/problems/majority-element/)| [P0169MajorityElement](./src/main/java/com/tree/core/algorithm/leetcode/P0169MajorityElement.java)    | [大多数](https://www.cnblogs.com/grandyang/p/4233501.html)
  |  | |
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
