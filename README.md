@@ -101,6 +101,7 @@ NO  |   title   |   solution    |   desc
 169  |[majority element](https://leetcode.com/problems/majority-element/)| [P0169MajorityElement](./src/main/java/com/tree/core/algorithm/leetcode/P0169MajorityElement.java)    | [大多数](https://www.cnblogs.com/grandyang/p/4233501.html)
 170  |[two sum iii](https://leetcode.com/problems/two-sum-iii-data-structure-design)| [P0170TwoSum3](./src/main/java/com/tree/core/algorithm/leetcode/P0170TwoSum3.java)    | [两数和3(数据结构)](https://www.cnblogs.com/grandyang/p/5184143.html)
 171  |[excel sheet column number](https://leetcode.com/problems/excel-sheet-column-number/)| [P0171ExcelSheetColumnNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0171ExcelSheetColumnNumber.java)    | excel列转为数字
+172  |[factorial trailing zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [P0172FactorialTrailingZeroes](./src/main/java/com/tree/core/algorithm/leetcode/P0172FactorialTrailingZeroes.java)    | 阶乘的0个数
  |  | |
 215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./src/main/java/com/tree/core/algorithm/leetcode/P0215KthLargestInArray.java)    | 数组中的第K个最大元素
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./src/main/java/com/tree/core/algorithm/leetcode/P0218Skyline.java)    | 天际线问题
