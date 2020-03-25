@@ -126,6 +126,7 @@ NO  |   title   |   solution    |   desc
 242 |[valid-anagram](https://leetcode.com/problems/valid-anagram/)| [P0242ValidAnagram](./src/main/java/com/tree/core/algorithm/leetcode/P0242ValidAnagram.java)    | 有效颠倒顺序字
 253 |[会议室II](https://leetcode-cn.com/problems/meeting-rooms-ii/)| [P0253MeetingRoomII](./src/main/java/com/tree/core/algorithm/leetcode/P0253MeetingRoomII.java)    | 会议室II
 257 |[binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)| [P0257BinaryTreePaths](./src/main/java/com/tree/core/algorithm/leetcode/P0257BinaryTreePaths.java)    | 二叉树路径
+258 |[add-digits](https://leetcode.com/problems/add-digits/)| [P0258AddDigits](./src/main/java/com/tree/core/algorithm/leetcode/P0258AddDigits.java)    | 数字和
  |  | |
 264 |[丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)| [P0264UglyNumberII](./src/main/java/com/tree/core/algorithm/leetcode/P0264UglyNumberII.java)    | 丑数II
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
