@@ -34,6 +34,12 @@ public class P0257BinaryTreePaths {
         return res;
     }
 
+    /**
+     * 遍历到当前节点node是, 已经经历的路径为s
+     * @param node 当前节点
+     * @param s 经过上个节点的路径
+     * @param res
+     */
     private void process(TreeNode node, String s, ArrayList<String> res) {
         if (node.left == null && node.right == null){
             res.add(s + node.val);
