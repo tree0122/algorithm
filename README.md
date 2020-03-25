@@ -117,6 +117,7 @@ NO  |   title   |   solution    |   desc
 219 |[contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii/)| [P0219ContainsDuplicate2](./src/main/java/com/tree/core/algorithm/leetcode/P0219ContainsDuplicate2.java)    | 重复元素2
 225 |[implement-stack-using-queues](https://leetcode.com/problems/implement-stack-using-queues/)| [P0225ImplementStackUsingQueue](./src/main/java/com/tree/core/algorithm/leetcode/P0225ImplementStackUsingQueue.java)    | 用队列实现栈
 226 |[invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/)| [P0226InvertBinaryTree](./src/main/java/com/tree/core/algorithm/leetcode/P0226InvertBinaryTree.java)    | 翻转二叉树
+231 |[power-of-two](https://leetcode.com/problems/power-of-two/)| [P0231PowerOfTwo](./src/main/java/com/tree/core/algorithm/leetcode/P0231PowerOfTwo.java)    | 2的指数
  |  | |
 239 |[滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| [P0239SlidingWindowMax](./src/main/java/com/tree/core/algorithm/leetcode/P0239SlidingWindowMax.java)    | 滑动窗口最大值
 253 |[会议室II](https://leetcode-cn.com/problems/meeting-rooms-ii/)| [P0253MeetingRoomII](./src/main/java/com/tree/core/algorithm/leetcode/P0253MeetingRoomII.java)    | 会议室II
