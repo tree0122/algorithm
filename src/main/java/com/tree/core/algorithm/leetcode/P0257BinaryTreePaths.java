@@ -39,10 +39,10 @@ public class P0257BinaryTreePaths {
             res.add(s + node.val);
         }
         if (node.left != null){
-            process(node.left, s + node.val, res);
+            process(node.left, s + node.val + "->", res);
         }
         if (node.right != null){
-            process(node.right, s + node.val, res);
+            process(node.right, s + node.val + "->", res);
         }
     }
 
