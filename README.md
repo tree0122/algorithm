@@ -133,6 +133,7 @@ NO  |   title   |   solution    |   desc
 258 |[add-digits](https://leetcode.com/problems/add-digits/)| [P0258AddDigits](./src/main/java/com/tree/core/algorithm/leetcode/P0258AddDigits.java)    | 数字和
 263 |[ugly-number](https://leetcode.com/problems/ugly-number/)| [P0263UglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0263UglyNumber.java)    | 丑数
 264 |[丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)| [P0264UglyNumberII](./src/main/java/com/tree/core/algorithm/leetcode/P0264UglyNumberII.java)    | 丑数II
+266 |[palindrome-permutation](https://leetcode.com/problems/palindrome-permutation/)| [P0266PalindromePermutation](./src/main/java/com/tree/core/algorithm/leetcode/P0266PalindromePermutation.java)    | [回文全排列](https://www.cnblogs.com/grandyang/p/5223238.html)
  |  | |
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
