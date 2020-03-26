@@ -139,6 +139,7 @@ NO  |   title   |   solution    |   desc
 276 |[paint-fence](https://leetcode.com/problems/paint-fence/)| [P0276PaintFence](./src/main/java/com/tree/core/algorithm/leetcode/P0276PaintFence.java)    | [粉刷篱笆](https://blog.csdn.net/magicbean2/article/details/74725977)
 278 |[first-bad-version](https://leetcode.com/problems/first-bad-version/)| [P0278FirstBadVersion](./src/main/java/com/tree/core/algorithm/leetcode/P0278FirstBadVersion.java)    | 首个错误版本
 283 |[move-zeroes](https://leetcode.com/problems/move-zeroes/)| [P0283MoveZeroes](./src/main/java/com/tree/core/algorithm/leetcode/P0283MoveZeroes.java)    | 移动零
+290 |[word-pattern](https://leetcode.com/problems/word-pattern/)| [P0290WordPattern](./src/main/java/com/tree/core/algorithm/leetcode/P0290WordPattern.java)    | 词语模式
  |  | |
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
