@@ -131,8 +131,9 @@ NO  |   title   |   solution    |   desc
 256 |[paint-house](https://leetcode.com/problems/paint-house/)| [P0256PaintHouse](./src/main/java/com/tree/core/algorithm/leetcode/P0256PaintHouse.java)    | [刷房子](https://www.cnblogs.com/grandyang/p/5319384.html)
 257 |[binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)| [P0257BinaryTreePaths](./src/main/java/com/tree/core/algorithm/leetcode/P0257BinaryTreePaths.java)    | 二叉树路径
 258 |[add-digits](https://leetcode.com/problems/add-digits/)| [P0258AddDigits](./src/main/java/com/tree/core/algorithm/leetcode/P0258AddDigits.java)    | 数字和
- |  | |
+263 |[ugly-number](https://leetcode.com/problems/ugly-number/)| [P0263UglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0263UglyNumber.java)    | 丑数
 264 |[丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)| [P0264UglyNumberII](./src/main/java/com/tree/core/algorithm/leetcode/P0264UglyNumberII.java)    | 丑数II
+ |  | |
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
 322 |[零钱兑换](https://leetcode-cn.com/problems/coin-change/)| [P0322CoinChange](./src/main/java/com/tree/core/algorithm/leetcode/P0322CoinChange.java)    | 零钱兑换
