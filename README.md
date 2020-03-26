@@ -126,6 +126,7 @@ NO  |   title   |   solution    |   desc
 242 |[valid-anagram](https://leetcode.com/problems/valid-anagram/)| [P0242ValidAnagram](./src/main/java/com/tree/core/algorithm/leetcode/P0242ValidAnagram.java)    | 有效颠倒顺序字
 243 |[shortest-word-distance](https://leetcode.com/problems/shortest-word-distance/)| [P0243ShortestWordDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0243ShortestWordDistance.java)    | [最短单词距离](https://www.cnblogs.com/grandyang/p/5187041.html)
 246 |[strobogrammatic-number](https://leetcode.com/problems/strobogrammatic-number/)| [P0246StrobogrammaticNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0246StrobogrammaticNumber.java)    | [对称数](https://www.cnblogs.com/grandyang/p/5196960.html)
+252 |[meeting-rooms](https://leetcode.com/problems/meeting-rooms/)| [P0252MeetingRooms](./src/main/java/com/tree/core/algorithm/leetcode/P0252MeetingRooms.java)    | [会议室](https://www.cnblogs.com/grandyang/p/5240774.html)
 253 |[会议室II](https://leetcode-cn.com/problems/meeting-rooms-ii/)| [P0253MeetingRoomII](./src/main/java/com/tree/core/algorithm/leetcode/P0253MeetingRoomII.java)    | 会议室II
 257 |[binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)| [P0257BinaryTreePaths](./src/main/java/com/tree/core/algorithm/leetcode/P0257BinaryTreePaths.java)    | 二叉树路径
 258 |[add-digits](https://leetcode.com/problems/add-digits/)| [P0258AddDigits](./src/main/java/com/tree/core/algorithm/leetcode/P0258AddDigits.java)    | 数字和
