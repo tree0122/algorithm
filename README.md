@@ -136,6 +136,7 @@ NO  |   title   |   solution    |   desc
 266 |[palindrome-permutation](https://leetcode.com/problems/palindrome-permutation/)| [P0266PalindromePermutation](./src/main/java/com/tree/core/algorithm/leetcode/P0266PalindromePermutation.java)    | [回文全排列](https://www.cnblogs.com/grandyang/p/5223238.html)
 268 |[missing-number](https://leetcode.com/problems/missing-number/)| [P0268MissingNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0268MissingNumber.java)    | 缺失的数
 270 |[closest-binary-search-tree-value](https://leetcode.com/problems/closest-binary-search-tree-value/)| [P0270ClosestBSTValue](./src/main/java/com/tree/core/algorithm/leetcode/P0270ClosestBSTValue.java)    | [最近的BST值](https://www.cnblogs.com/grandyang/p/5237170.html)
+276 |[paint-fence](https://leetcode.com/problems/paint-fence/)| [P0276PaintFence](./src/main/java/com/tree/core/algorithm/leetcode/P0276PaintFence.java)    | [粉刷篱笆](https://blog.csdn.net/magicbean2/article/details/74725977)
  |  | |
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
