@@ -155,6 +155,7 @@ NO  |   title   |   solution    |   desc
 345 |[reverse-vowels-of-a-string](https://leetcode.com/problems/reverse-vowels-of-a-string/)| [P0345ReverseVowelsOfString](./src/main/java/com/tree/core/algorithm/leetcode/P0345ReverseVowelsOfString.java)    | 翻转字符串中的元音字符
 347 |[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)| [P0347TopKFrequent](./src/main/java/com/tree/core/algorithm/leetcode/P0347TopKFrequent.java)    | 前 K 个高频元素
 349 |[intersection-of-two-arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [P0349IntersectionOfTwoArray](./src/main/java/com/tree/core/algorithm/leetcode/P0349IntersectionOfTwoArray.java)    | 两数组的交集元素
+350 |[intersection-of-two-arrays-ii](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [P0350IntersectionOfTwoArray2](./src/main/java/com/tree/core/algorithm/leetcode/P0350IntersectionOfTwoArray2.java)    | 两数组的交集元素2
  |  | |
 358 |[K间隔重排字符串](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/)| [P0358RearrangeStringKDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0358RearrangeStringKDistance.java)    | [K间隔重排字符串](https://www.cnblogs.com/lightwindy/p/8547310.html)
 373 |[和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums)| [P0373FindKPairsWithSmallSum](./src/main/java/com/tree/core/algorithm/leetcode/P0373FindKPairsWithSmallSum.java)    | 和最小的K对数字
