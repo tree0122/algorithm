@@ -142,6 +142,7 @@ NO  |   title   |   solution    |   desc
 290 |[word-pattern](https://leetcode.com/problems/word-pattern/)| [P0290WordPattern](./src/main/java/com/tree/core/algorithm/leetcode/P0290WordPattern.java)    | 词语模式
 292 |[nim-game](https://leetcode.com/problems/nim-game/)| [P0292NimGame](./src/main/java/com/tree/core/algorithm/leetcode/P0292NimGame.java)    | 取物游戏
 293 |[flip-game](https://leetcode.com/problems/flip-game/)| [P0293FlipGame](./src/main/java/com/tree/core/algorithm/leetcode/P0293FlipGame.java)    | [翻转游戏](https://www.cnblogs.com/grandyang/p/5224896.html)
+294 |[flip-game](https://leetcode.com/problems/flip-game-ii/)| [P0294FlipGame2](./src/main/java/com/tree/core/algorithm/leetcode/P0294FlipGame2.java)    | [翻转游戏2](https://www.cnblogs.com/grandyang/p/5226206.html)
  |  | |
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
