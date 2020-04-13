@@ -150,6 +150,7 @@ NO  |   title   |   solution    |   desc
 322 |[零钱兑换](https://leetcode-cn.com/problems/coin-change/)| [P0322CoinChange](./src/main/java/com/tree/core/algorithm/leetcode/P0322CoinChange.java)    | 零钱兑换
 326 |[power-of-three](https://leetcode.com/problems/power-of-three/)| [P0326PowerOfThree](./src/main/java/com/tree/core/algorithm/leetcode/P0326PowerOfThree.java)    | 3的指数
 339 |[nested-list-weight-sum](https://leetcode.com/problems/nested-list-weight-sum/)| [P0339NestedListWeightSum](./src/main/java/com/tree/core/algorithm/leetcode/P0339NestedListWeightSum.java)    | [嵌套链表权重和](https://www.cnblogs.com/grandyang/p/5340305.html)
+342 |[power-of-four](https://leetcode.com/problems/power-of-four/)| [P0342PowerOfFour](./src/main/java/com/tree/core/algorithm/leetcode/P0342PowerOfFour.java)    | 判断4的次方数
  |  | |
 347 |[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)| [P0347TopKFrequent](./src/main/java/com/tree/core/algorithm/leetcode/P0347TopKFrequent.java)    | 前 K 个高频元素
 358 |[K间隔重排字符串](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/)| [P0358RearrangeStringKDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0358RearrangeStringKDistance.java)    | [K间隔重排字符串](https://www.cnblogs.com/lightwindy/p/8547310.html)
