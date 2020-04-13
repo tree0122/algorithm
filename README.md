@@ -146,9 +146,10 @@ NO  |   title   |   solution    |   desc
 295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./src/main/java/com/tree/core/algorithm/leetcode/P0295FindMedianFromDataStream.java)    | 数据流的中位数
 299 |[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows/)| [P0299BullsAndCows](./src/main/java/com/tree/core/algorithm/leetcode/P0299BullsAndCows.java)    | 猜数字
 303 |[range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [P0303RangeSumQuery](./src/main/java/com/tree/core/algorithm/leetcode/P0303RangeSumQuery.java)    | 范围和查询
- |  | |
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./src/main/java/com/tree/core/algorithm/leetcode/P0313SuperUglyNumber.java)    | 超级丑数
 322 |[零钱兑换](https://leetcode-cn.com/problems/coin-change/)| [P0322CoinChange](./src/main/java/com/tree/core/algorithm/leetcode/P0322CoinChange.java)    | 零钱兑换
+326 |[power-of-three](https://leetcode.com/problems/power-of-three/)| [P0326PowerOfThree](./src/main/java/com/tree/core/algorithm/leetcode/P0326PowerOfThree.java)    | 3的指数
+ |  | |
 347 |[前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/)| [P0347TopKFrequent](./src/main/java/com/tree/core/algorithm/leetcode/P0347TopKFrequent.java)    | 前 K 个高频元素
 358 |[K间隔重排字符串](https://leetcode-cn.com/problems/rearrange-string-k-distance-apart/)| [P0358RearrangeStringKDistance](./src/main/java/com/tree/core/algorithm/leetcode/P0358RearrangeStringKDistance.java)    | [K间隔重排字符串](https://www.cnblogs.com/lightwindy/p/8547310.html)
 373 |[和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums)| [P0373FindKPairsWithSmallSum](./src/main/java/com/tree/core/algorithm/leetcode/P0373FindKPairsWithSmallSum.java)    | 和最小的K对数字
