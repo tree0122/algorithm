@@ -68,6 +68,7 @@ NO  |   title   |   solution    |   desc
 22  |[generate-parentheses](https://leetcode.com/problems/generate-parentheses/)| [P0022GenerateParentheses](./src/main/java/com/tree/core/algorithm/leetcode/P0022GenerateParentheses.java)    | 生成括号字符串
 23  |[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [P0023MergeKSortedList](./src/main/java/com/tree/core/algorithm/leetcode/P0023MergeKSortedList.java)    | 合并K个排序链表
 24  |[swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)| [P0024SwapNodesInPairs](./src/main/java/com/tree/core/algorithm/leetcode/P0024SwapNodesInPairs.java)    | 成对交换节点
+25  |[reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group/)| [P0025ReverseNodesInKGroup](./src/main/java/com/tree/core/algorithm/leetcode/P0025ReverseNodesInKGroup.java)    | 每组k个元素，分组翻转链表
 26  |[remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [P0026RemoveDuplicatesFromSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0026RemoveDuplicatesFromSortedArray.java)    | 删除有序数组的重复元素
 27  |[remove element](https://leetcode.com/problems/remove-element/)| [P0027RemoveElement](./src/main/java/com/tree/core/algorithm/leetcode/P0027RemoveElement.java)    | 删除数组中值为val的元素
 28  |[implement strstr](https://leetcode.com/problems/implement-strstr/)| [P0028ImplementStrstr](./src/main/java/com/tree/core/algorithm/leetcode/P0028ImplementStrstr.java)    | kmp
