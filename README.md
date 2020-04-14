@@ -64,6 +64,7 @@ NO  |   title   |   solution    |   desc
 18  |[4sum](https://leetcode.com/problems/4sum/)| [P0018FourSum](./src/main/java/com/tree/core/algorithm/leetcode/P0018FourSum.java)    | 4sum
 20  |[valid parentheses](https://leetcode.com/problems/valid-parentheses/)| [P0020ValidParentheses](./src/main/java/com/tree/core/algorithm/leetcode/P0020ValidParentheses.java)    | 有效括号的字符串
 21  |[merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [P0021MergeTwoSortedLists](./src/main/java/com/tree/core/algorithm/leetcode/P0021MergeTwoSortedLists.java)    | 合并两个有序链表
+22  |[generate-parentheses](https://leetcode.com/problems/generate-parentheses/)| [P0022GenerateParentheses](./src/main/java/com/tree/core/algorithm/leetcode/P0022GenerateParentheses.java)    | 生成括号字符串
 23  |[合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)| [P0023MergeKSortedList](./src/main/java/com/tree/core/algorithm/leetcode/P0023MergeKSortedList.java)    | 合并K个排序链表
 26  |[remove duplicates from sorted array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [P0026RemoveDuplicatesFromSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0026RemoveDuplicatesFromSortedArray.java)    | 删除有序数组的重复元素
 27  |[remove element](https://leetcode.com/problems/remove-element/)| [P0027RemoveElement](./src/main/java/com/tree/core/algorithm/leetcode/P0027RemoveElement.java)    | 删除数组中值为val的元素
