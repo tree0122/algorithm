@@ -48,6 +48,33 @@ public class P0025ReverseNodesInKGroup {
         return ans;
     }
 
+    public ListNode better(ListNode head, int k){
+        ListNode dum = new ListNode(0), lastTail = dum;
+        dum.next = head;
+        for (int i = 1; head != null; i++) {
+            if (i % k == 0){
+                lastTail = reverse(lastTail, head.next);
+                head = lastTail.next;
+            }else {
+                head = head.next;
+            }
+        }
+        return dum.next;
+    }
+
+    private ListNode reverse(ListNode lastTail, ListNode nextHead) {
+        ListNode cur = lastTail.next, pre = lastTail, next = null, first = cur;
+        while (cur != nextHead){
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        lastTail.next = pre;
+        first.next = cur;
+        return first;
+    }
+
     private class ListNode{
         int val;
         ListNode next;
