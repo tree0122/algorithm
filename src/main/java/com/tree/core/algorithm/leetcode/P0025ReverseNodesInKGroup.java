@@ -75,6 +75,25 @@ public class P0025ReverseNodesInKGroup {
         return first;
     }
 
+    public ListNode backtrack(ListNode head, int k){
+        ListNode cur = head, pre = null, next = null;
+        for (int i = 1; i < k && cur != null; i++) {
+            cur = cur.next;
+        }
+        if (cur == null){
+            return head;
+        }
+        cur = head;
+        for (int i = 0; i < k; i++) {
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
+        }
+        head.next = backtrack(cur, k);
+        return pre;
+    }
+
     private class ListNode{
         int val;
         ListNode next;

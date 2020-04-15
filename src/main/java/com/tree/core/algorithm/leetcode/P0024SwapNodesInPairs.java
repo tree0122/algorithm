@@ -26,6 +26,22 @@ public class P0024SwapNodesInPairs {
         return ans.next;
     }
 
+    /**
+     * 回溯求解
+     *
+     * @param head
+     * @return
+     */
+    public ListNode backtrack(ListNode head){
+        if (head == null || head.next == null){
+            return head;
+        }
+        ListNode next = head.next;
+        head.next = backtrack(head.next.next);
+        next.next = head;
+        return next;
+    }
+
     private class ListNode{
         int val;
         ListNode next;
