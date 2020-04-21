@@ -74,6 +74,7 @@ NO  |   title   |   solution    |   desc
 28  |[implement strstr](https://leetcode.com/problems/implement-strstr/)| [P0028ImplementStrstr](./src/main/java/com/tree/core/algorithm/leetcode/P0028ImplementStrstr.java)    | kmp
 29  |[divide-two-integers](https://leetcode.com/problems/divide-two-integers/)| [P0029DivideTwoInteger](./src/main/java/com/tree/core/algorithm/leetcode/P0029DivideTwoInteger.java)    | 整数相除
 30  |[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [P0030SubstringWithConcatenationOfAllWords](./src/main/java/com/tree/core/algorithm/leetcode/P0030SubstringWithConcatenationOfAllWords.java)    | 串联所有单词的子串
+31  |[next-permutation](https://leetcode.com/problems/next-permutation/)| [P0031NextPermutation](./src/main/java/com/tree/core/algorithm/leetcode/P0031NextPermutation.java)    | 下一个排列
 35  |[search insert position](https://leetcode.com/problems/search-insert-position/)| [P0035SearchInsertPosition](./src/main/java/com/tree/core/algorithm/leetcode/P0035SearchInsertPosition.java)    | 二分查找
 38  |[count and say](https://leetcode.com/problems/count-and-say/)| [P0038CountAndSay](./src/main/java/com/tree/core/algorithm/leetcode/P0038CountAndSay.java)    | count and say
 53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./src/main/java/com/tree/core/algorithm/leetcode/P0053MaximumSubarray.java)    | 最大子数组和
