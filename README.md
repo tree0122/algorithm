@@ -79,6 +79,7 @@ NO  |   title   |   solution    |   desc
 33  |[search-in-rotated-sorted-array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [P0033SearchInRotatedSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0033SearchInRotatedSortedArray.java)    | 分段有效数组查找
 34  |[find-first-and-last-position-of-element-in-sorted-array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [P0034FindFirstAndLastPositionOfElementInSortedArray](./src/main/java/com/tree/core/algorithm/leetcode/P0034FindFirstAndLastPositionOfElementInSortedArray.java)    | 有序数组的范围查找
 35  |[search insert position](https://leetcode.com/problems/search-insert-position/)| [P0035SearchInsertPosition](./src/main/java/com/tree/core/algorithm/leetcode/P0035SearchInsertPosition.java)    | 二分查找
+36  |[valid-sudoku](https://leetcode.com/problems/valid-sudoku/)| [P0036ValidSudoku](./src/main/java/com/tree/core/algorithm/leetcode/P0036ValidSudoku.java)    | 有效九宫格游戏
 38  |[count and say](https://leetcode.com/problems/count-and-say/)| [P0038CountAndSay](./src/main/java/com/tree/core/algorithm/leetcode/P0038CountAndSay.java)    | count and say
 53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./src/main/java/com/tree/core/algorithm/leetcode/P0053MaximumSubarray.java)    | 最大子数组和
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./src/main/java/com/tree/core/algorithm/leetcode/P0058LengthOfLastWord.java)    | 最后单词的长度
