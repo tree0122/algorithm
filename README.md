@@ -83,6 +83,7 @@ NO  |   title   |   solution    |   desc
 37  |[sudoku-solver](https://leetcode.com/problems/sudoku-solver/)| [P0037SudokuSolver](./src/main/java/com/tree/core/algorithm/leetcode/P0037SudokuSolver.java)    | 填充九宫格游戏
 38  |[count and say](https://leetcode.com/problems/count-and-say/)| [P0038CountAndSay](./src/main/java/com/tree/core/algorithm/leetcode/P0038CountAndSay.java)    | count and say
 39  |[combination-sum](https://leetcode.com/problems/combination-sum/)| [P0039CombinationSum](./src/main/java/com/tree/core/algorithm/leetcode/P0039CombinationSum.java)    | 组合和
+40  |[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii/)| [P0040CombinationSum2](./src/main/java/com/tree/core/algorithm/leetcode/P0040CombinationSum2.java)    | 组合和2
 53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./src/main/java/com/tree/core/algorithm/leetcode/P0053MaximumSubarray.java)    | 最大子数组和
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./src/main/java/com/tree/core/algorithm/leetcode/P0058LengthOfLastWord.java)    | 最后单词的长度
 60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./src/main/java/com/tree/core/algorithm/leetcode/P0060PlusOne.java)    | 加一
