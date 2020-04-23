@@ -1,6 +1,6 @@
 ## [leetcode](https://leetcode.com/)
 
-序号 |   题目   |   答案    | 算法类型 
+序号 |   题目   |   答案    | 类型 
 ----|-----------|---------------|---------
 1   |[two-sum](https://leetcode.com/problems/two-sum/)| [TwoSum](./P0001TwoSum.java)  | 哈希 
 2   |[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [P0002AddTwoNumbers](./P0002AddTwoNumbers.java)    | 
@@ -20,7 +20,7 @@
 16  |[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [P0016ThreeSumClosest](./P0016ThreeSumClosest.java)    | 
 17  |[letter- combinations](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [LetterCombinations](./P0017LetterCombinationsOfOnePhoneNumber.java)    | 
 18  |[4sum](https://leetcode.com/problems/4sum/)| [P0018FourSum](./P0018FourSum.java)    | 
-19  |[remove-nth-node-from-end-of-list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [P0019RemoveNthFromEndOfList](./P0019RemoveNthFromEndOfList.java)    | 
+19  |[remove-nth-node-from-end](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)| [P0019RemoveNthFromEndOfList](./P0019RemoveNthFromEndOfList.java)    | 
 20  |[valid parentheses](https://leetcode.com/problems/valid-parentheses/)| [P0020ValidParentheses](./P0020ValidParentheses.java)    | 
 21  |[merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [P0021MergeTwoSortedLists](./P0021MergeTwoSortedLists.java)    | 
 22  |[generate-parentheses](https://leetcode.com/problems/generate-parentheses/)| [P0022GenerateParentheses](./P0022GenerateParentheses.java)    | 
@@ -48,13 +48,13 @@
 67  |[add binary](https://leetcode.com/problems/add-binary/)| [P0067AddBinary](./P0067AddBinary.java)    | 
 69  |[sqrt](https://leetcode.com/problems/sqrtx/)| [P0069Sqrt](./P0069Sqrt.java)    | 
 70  |[climbing stairs](https://leetcode.com/problems/climbing-stairs/)| [P0070ClimbingStairs](./P0070ClimbingStairs.java)    | 
-83  |[remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [P0083RemoveDuplicatesFromSortedList](./P0083RemoveDuplicatesFromSortedList.java)    | 
+83  |[remove-dup-from-sorted-list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)| [RemoveDupFromSortedList](./P0083RemoveDuplicatesFromSortedList.java) | 
 88  |[merge sorted array](https://leetcode.com/problems/merge-sorted-array/)| [P0088MergeSortedArray](./P0088MergeSortedArray.java)    | 
 100 |[is same tree](https://leetcode.com/problems/same-tree/)| [P0100SameTree](./P0100SameTree.java)    | 
 101 |[symmetric tree](https://leetcode.com/problems/symmetric-tree/)| [P0101SymmetricTree](./P0101SymmetricTree.java)    | 
-104 |[maximum depth of binary tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [P0104MaximumDepthOfBinaryTree](./P0104MaximumDepthOfBinaryTree.java)    | 
-107 |[binary tree level order traversal ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [P0107BinaryTreeLevelOrderTraversal2](./P0107BinaryTreeLevelOrderTraversal2.java)    | 
-108 |[convert sorted array to binary search ree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [P0108ConvertSortedeArrayToBinarySearchTree](./P0108ConvertSortedeArrayToBinarySearchTree.java)    | 
+104 |[depth-of-binary-tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [MaximumDepthOfBinaryTree](./P0104MaximumDepthOfBinaryTree.java)    | 
+107 |[tree level order traversal ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [BinaryTreeLevelOrderTraversal2](./P0107BinaryTreeLevelOrderTraversal2.java)    | 
+108 |[convert-sorted-array-bstree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [ConvertSortedeArrayToBSTree](./P0108ConvertSortedeArrayToBinarySearchTree.java)    | 
 110 |[balanced binary tree](https://leetcode.com/problems/balanced-binary-tree/)| [P0110BalancedBinaryTree](./P0110BalancedBinaryTree.java)    | 
 111 |[minimum depth of binary tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [P0111MinimumDepthOfBinaryTree](./P0111MinimumDepthOfBinaryTree.java)    | 
 112 |[path sum](https://leetcode.com/problems/path-sum/)| [P0112PathSum](./P0112PathSum.java)    | 
@@ -83,7 +83,7 @@
 204 |[count-primes](https://leetcode.com/problems/count-primes/)| [P0204CountPrimes](./P0204CountPrimes.java)    | 
 205 |[isomorphic-strings](https://leetcode.com/problems/isomorphic-strings/)| [P0205IsomorphicString](./P0205IsomorphicString.java)    | 
 206 |[reverse-linked-list](https://leetcode.com/problems/reverse-linked-list/)| [P0206ReverseLinkedList](./P0206ReverseLinkedList.java)    | 
-215 |[数组中的第K个最大元素数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./P0215KthLargestInArray.java)    | 
+215 |[Kth-largest-in-array](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| [P0215KthLargestInArray](./P0215KthLargestInArray.java)    | 
 217 |[contains-duplicate](https://leetcode.com/problems/contains-duplicate/)| [P0217ContainsDuplicate](./P0217ContainsDuplicate.java)    | 
 218 |[天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)| [P0218Skyline](./P0218Skyline.java)    | 
 219 |[contains-duplicate-ii](https://leetcode.com/problems/contains-duplicate-ii/)| [P0219ContainsDuplicate2](./P0219ContainsDuplicate2.java)    | 
@@ -115,7 +115,7 @@
 292 |[nim-game](https://leetcode.com/problems/nim-game/)| [P0292NimGame](./P0292NimGame.java)    | 
 293 |[flip-game](https://leetcode.com/problems/flip-game/)| [P0293FlipGame](./P0293FlipGame.java)    | 
 294 |[flip-game-ii](https://leetcode.com/problems/flip-game-ii/)| [P0294FlipGame2](./P0294FlipGame2.java)    | 
-295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [P0295FindMedianFromDataStream](./P0295FindMedianFromDataStream.java)    | 
+295 |[数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)| [MedianFromDataStream](./P0295FindMedianFromDataStream.java)    | 
 299 |[bulls-and-cows](https://leetcode.com/problems/bulls-and-cows/)| [P0299BullsAndCows](./P0299BullsAndCows.java)    | 
 303 |[range-sum-query-immutable](https://leetcode.com/problems/range-sum-query-immutable/)| [P0303RangeSumQuery](./P0303RangeSumQuery.java)    | 
 313 |[超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)| [P0313SuperUglyNumber](./P0313SuperUglyNumber.java)    | 
