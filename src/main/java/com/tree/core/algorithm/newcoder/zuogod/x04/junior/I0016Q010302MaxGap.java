@@ -33,13 +33,10 @@ public class I0016Q010302MaxGap {
             hs[idx] = true;
         }
         int ans = Integer.MIN_VALUE;
-        Integer lastMax = null;
-        for (int i = 0; i < hs.length; i++) {
+        Integer lastMax = xs[0];
+        for (int i = 1; i < hs.length; i++) {
             if (hs[i]){
-                if (lastMax != null) {
-                    ans = Math.max(ans, ns[i] - lastMax);
-                }
-                lastMax = xs[i];
+                ans = Math.max(ans, ns[i] - lastMax);
             }
         }
         return ans;

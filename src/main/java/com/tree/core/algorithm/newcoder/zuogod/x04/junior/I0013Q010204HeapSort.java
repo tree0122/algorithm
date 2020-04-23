@@ -31,7 +31,7 @@ public class I0013Q010204HeapSort {
         int big = (i >> 1) + 1;
         while (big < size){
             big = big + 1 < size && a[big] < a[big + 1] ? big + 1 : big;
-            if (a[big] < a[i]){
+            if (a[big] <= a[i]){
                 break;
             }
             swap(a, i, big);

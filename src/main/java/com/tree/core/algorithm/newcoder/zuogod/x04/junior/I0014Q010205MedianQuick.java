@@ -37,10 +37,10 @@ public class I0014Q010205MedianQuick {
             minQ.offer(val);
         }
         int delta = maxQ.size() - minQ.size();
-        if (delta == 1){
+        if (delta == 2){
             minQ.offer(maxQ.poll());
         }
-        if (delta == -1){
+        if (delta == -2){
             maxQ.offer(minQ.poll());
         }
     }

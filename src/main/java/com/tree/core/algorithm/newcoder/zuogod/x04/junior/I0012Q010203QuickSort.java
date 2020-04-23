@@ -27,7 +27,7 @@ public class I0012Q010203QuickSort {
     public int[] part(int[] a, int l, int r, int n) {
         int less = l - 1;
         int more = r + 1;
-        for (int i = 0; i < more;) {
+        for (int i = l; i < more;) {
             if (a[i] == n){
                 i++;
             }else if (a[i] < n){
