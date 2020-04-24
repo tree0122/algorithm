@@ -45,6 +45,7 @@ public class I0031Q010501BinaryTreeTraversal {
                 stack.push(cur);
                 cur = cur.left;
             }else {
+                cur = stack.pop();
                 System.out.println(cur.val);
                 cur = cur.right;
             }

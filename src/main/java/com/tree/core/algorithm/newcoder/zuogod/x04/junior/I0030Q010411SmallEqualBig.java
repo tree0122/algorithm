@@ -21,6 +21,28 @@ package com.tree.core.algorithm.newcoder.zuogod.x04.junior;
  */
 public class I0030Q010411SmallEqualBig {
 
+    public Node better(Node head, int num){
+        Node less = new Node(), lessB = less;
+        Node equal = new Node(), equalB = equal;
+        Node more = new Node(), moreB = more;
+        while (head != null){
+            if (head.val == num){
+                equal.next = head;
+                equal = equal.next;
+            }else if (head.val < num){
+                less.next = head;
+                less = less.next;
+            }else {
+                more.next = head;
+                more = more.next;
+            }
+            head = head.next;
+        }
+        equal.next = moreB.next;
+        less.next = equalB.next;
+        return lessB.next;
+    }
+
     public Node part(Node head, int num){
         if (head == null || head.next == null){
             return head;
