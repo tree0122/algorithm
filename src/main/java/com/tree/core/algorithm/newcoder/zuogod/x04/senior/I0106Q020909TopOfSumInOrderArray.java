@@ -27,7 +27,7 @@ public class I0106Q020909TopOfSumInOrderArray {
         if (a1 == null || a2 == null){
             return null;
         }
-        k = Math.max(k, a1.length * a2.length);
+        k = Math.min(k, a1.length * a2.length);
         int[] res = new int[k];
         PriorityQueue<Node> pQueue = new PriorityQueue<>(k + 1, (v1, v2) -> v2.value - v1.value);
         int m = a1.length - 1;

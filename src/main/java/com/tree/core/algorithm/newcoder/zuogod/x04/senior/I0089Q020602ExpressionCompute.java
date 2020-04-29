@@ -22,7 +22,7 @@ public class I0089Q020602ExpressionCompute {
         if (s == null || s.length() == 0){
             return 0;
         }
-        return value(s, 0)[1];
+        return value(s, 0)[0];
     }
 
     private int[] value(String s, int i){

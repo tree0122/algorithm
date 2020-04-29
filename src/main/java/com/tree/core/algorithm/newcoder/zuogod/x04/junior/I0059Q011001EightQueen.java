@@ -65,7 +65,7 @@ public class I0059Q011001EightQueen {
             return 1;
         }
         int ans = 0;
-        for (int k = 0; k < a.length; k++) {
+        for (int k = 1; k <= a.length; k++) {
             if (valid(a, i, k)){
                 a[i] = k;
                 ans += process(a, i + 1);

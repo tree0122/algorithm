@@ -48,7 +48,7 @@ public class I0105Q020908ParenthesisQuestion {
         //dp[i]表示, s(0...i)范围内 以s(i)结尾, 最长的有效括号子串
         int[] dp = new int[s.length()];
         for (int i = 1, pre = 0; i < s.length(); i++) {
-            if (s.charAt(i) == ')' && (pre = i - dp[i - 1] - 1) >= 0) {
+            if (s.charAt(i) == ')' && (pre = i - dp[i - 1] - 1) >= 0 && s.charAt(pre) == '(') {
                 dp[i] = (dp[i - 1] + 2) + (pre > 0 ? dp[pre - 1] : 0);
                 res = Math.max(res, dp[i]);
             }

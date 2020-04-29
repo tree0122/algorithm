@@ -27,10 +27,9 @@ public class I0103Q020906PlalindSmallestCut {
 
     private int[] dp(String s) {
         //ans[i]表示，s(i...len)切分成回文串的最小切割数
-        int[] ans = new int[s.length()];
-        ans[ans.length - 1] = 1;
+        int[] ans = new int[s.length() + 1];
         boolean[][] isPa = pdp(s);
-        for (int i = ans.length - 2; i > 0; i--) {
+        for (int i = ans.length - 2; i >= 0; i--) {
             ans[i] = Integer.MAX_VALUE;
             for (int j = i; j < s.length(); j++) {
                 if (isPa[i][j] && ans[j + 1] + 1 < ans[i]){
@@ -49,7 +48,12 @@ public class I0103Q020906PlalindSmallestCut {
         }
         for (int i = s.length() - 2; i >= 0; i--) {
             for (int j = i + 1; j < s.length(); j++) {
-                ans[i][j] = s.charAt(i) == s.charAt(j) && ans[i + 1][j - 1];
+//                ans[i][j] = s.charAt(i) == s.charAt(j) ;
+//                if (i + 1 <= j - 1 && ans[i][j]){
+//                    ans[i][j] = ans[i + 1][j - 1];
+//                }
+                ans[i][j] = s.charAt(i) == s.charAt(j)
+                        && (j - i < 2 || ans[i + 1][j - 1]);
             }
         }
         return ans;

@@ -51,8 +51,8 @@ public class I0061Q020101KMP {
                 i++;
                 j++;
             }else {// 不匹配时, j回退j个距离到0, i回退j个距离, 然后比较下个字符
-                j = 0;
                 i = i - j + 1;
+                j = 0;
             }
         }
         return j == s2.length() ? i - j : -1;

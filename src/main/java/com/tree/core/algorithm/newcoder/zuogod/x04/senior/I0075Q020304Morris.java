@@ -53,9 +53,9 @@ public class I0075Q020304Morris {
                     mostRightInLeft = mostRightInLeft.right;
                 }
                 if (mostRightInLeft.right == null){
+                    System.out.println(cur.val);
                     mostRightInLeft.right = cur;
                     cur = cur.left;
-                    System.out.println(cur.val);
                     continue;
                 }else {
                     mostRightInLeft.right = null;

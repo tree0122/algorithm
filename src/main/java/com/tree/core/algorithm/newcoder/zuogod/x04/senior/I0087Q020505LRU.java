@@ -39,7 +39,6 @@ public class I0087Q020505LRU {
             oldValue = oldNode.value;
             oldNode.value = value;
             deque.moveToTail(oldNode);
-            size++;
             return oldValue;
         }
         Node newNode = new Node(key, value, null, null);
@@ -49,6 +48,7 @@ public class I0087Q020505LRU {
         }
         map.put(key, newNode);
         deque.offer(newNode);
+        size++;
         return null;
     }
 

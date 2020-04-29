@@ -28,7 +28,8 @@ public class I0081Q020406LongestSumSubarrayLen {
             Integer pre = map.get(sum - aim);
             if (pre != null){
                 len = Math.max(len, i - pre);
-            }else {
+            }
+            if (!map.containsKey(sum)){
                 map.put(sum, i);
             }
         }
