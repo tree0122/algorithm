@@ -44,6 +44,7 @@
 40  |[combination-sum-ii](https://leetcode.com/problems/combination-sum-ii/)| [P0040CombinationSum2](./P0040CombinationSum2.java)    | 
 41  |[首个缺失正数](https://leetcode.com/problems/first-missing-positive/)| [FirstMissingPositive](./P0041FirstMissingPositive.java)    | 
 42  |[收集雨水](https://leetcode.com/problems/trapping-rain-water/)| [TrapRainWater](./P0042TrapRainWater.java)    | 
+43  |[字符串相乘](https://leetcode.com/problems/multiply-strings/)| [MultiplyStrings](./P0043MultiplyStrings.java)    | 
 53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./P0053MaximumSubarray.java)    | 
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./P0058LengthOfLastWord.java)    | 
 60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./P0060PlusOne.java)    | 
