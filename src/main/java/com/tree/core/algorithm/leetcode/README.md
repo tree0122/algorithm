@@ -50,6 +50,7 @@
 46  |[全排列](https://leetcode.com/problems/permutations/)| [Permutations](./P0046Permutations.java)    | 
 47  |[全排列2](https://leetcode.com/problems/permutations-ii/)| [Permutations2](./P0047Permutations2.java)    | 
 48  |[90°旋转图片](https://leetcode.com/problems/rotate-image/)| [RotateImage](./P0048RotateImage.java)    | 
+49  |[错位词分组](https://leetcode.com/problems/group-anagrams/)| [GroupAnagrams](./P0049GroupAnagrams.java)    | 
 53  |[maximum subarray](https://leetcode.com/problems/maximum-subarray/)| [P0053MaximumSubarray](./P0053MaximumSubarray.java)    | 
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./P0058LengthOfLastWord.java)    | 
 60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./P0060PlusOne.java)    | 
