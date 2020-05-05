@@ -31,4 +31,20 @@ public class P0045JumpGame2 {
         return cn;
     }
 
+
+    public int understand(int[] nums){
+        int cn = 0;
+        for (int i = 0, cur = 0, last = 0; i < nums.length; i++) {
+            cur = Math.max(cur, i + nums[i]);
+            if (last == i){
+                last = cur;
+                cn++;
+                if (cur >= nums.length - 1){
+                    break;
+                }
+            }
+        }
+        return cn;
+    }
+
 }
