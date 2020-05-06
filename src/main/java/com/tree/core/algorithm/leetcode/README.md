@@ -55,6 +55,7 @@
 51  |[n皇后](https://leetcode.com/problems/n-queens/)| [NQueens](./P0051NQueens.java)    | 
 53  |[最大子数组和](https://leetcode.com/problems/maximum-subarray/)| [MaximumSubarray](./P0053MaximumSubarray.java)    | 
 54  |[螺旋矩阵](https://leetcode.com/problems/spiral-matrix/)| [SpiralMatrix](./P0054SpiralMatrix.java)    | 
+55  |[跳跃游戏](https://leetcode.com/problems/jump-game/)| [JumpGame](./P0055JumpGame.java)    | 
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./P0058LengthOfLastWord.java)    | 
 60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./P0060PlusOne.java)    | 
 67  |[add binary](https://leetcode.com/problems/add-binary/)| [P0067AddBinary](./P0067AddBinary.java)    | 
