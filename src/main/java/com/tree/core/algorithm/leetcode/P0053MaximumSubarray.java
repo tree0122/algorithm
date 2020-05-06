@@ -21,7 +21,7 @@ public class P0053MaximumSubarray {
         int max = nums[nums.length - 1];
         // lastMax表示, 以i开头的子数组中, 子数组和的最大值
         for (int i = nums.length - 2, lastMax = max; i >= 0; i--) {
-            lastMax = nums[i] + lastMax > 0 ? lastMax : 0;
+            lastMax = lastMax > 0 ? nums[i] + lastMax : nums[i];
             max = Math.max(max, lastMax);
         }
         return max;
@@ -38,7 +38,7 @@ public class P0053MaximumSubarray {
         int[] a = new int[nums.length];
         a[a.length - 1] = nums[a.length - 1];
         for (int i = a.length - 2; i >= 0; i--) {
-            a[i] = nums[i] + a[i + 1] > 0 ? a[i + 1] : 0;
+            a[i] = a[i + 1] > 0 ? a[i + 1] + nums[i] : nums[i];
         }
         int max = a[0];
         for (int i = 1; i < a.length; i++) {
