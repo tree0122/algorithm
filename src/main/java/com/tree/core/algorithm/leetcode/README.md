@@ -59,7 +59,7 @@
 56  |[合并区间](https://leetcode.com/problems/merge-intervals/)| [MergeIntervals](./P0056MergeIntervals.java)    | 
 57  |[插入区间](https://leetcode.com/problems/insert-interval/)| [InsertInterval](./P0057InsertInterval.java)    | 
 58  |[length of last word](https://leetcode.com/problems/length-of-last-word/)| [P0058LengthOfLastWord](./P0058LengthOfLastWord.java)    | 
-60  |[length of last word](https://leetcode.com/problems/plus-one/)| [P0060PlusOne](./P0060PlusOne.java)    | 
+60  |[加一](https://leetcode.com/problems/plus-one/)| [PlusOne](./P0060PlusOne.java)    | 
 67  |[add binary](https://leetcode.com/problems/add-binary/)| [P0067AddBinary](./P0067AddBinary.java)    | 
 69  |[sqrt](https://leetcode.com/problems/sqrtx/)| [P0069Sqrt](./P0069Sqrt.java)    | 
 70  |[climbing stairs](https://leetcode.com/problems/climbing-stairs/)| [P0070ClimbingStairs](./P0070ClimbingStairs.java)    | 
