@@ -18,7 +18,7 @@ package com.tree.core.algorithm.leetcode;
  * Output: [4,3,2,2]
  * Explanation: The array represents the integer 4321.
  */
-public class P0060PlusOne {
+public class P0066PlusOne {
 
     public int[] plusOne(int[] digits){
         if (digits == null || digits.length == 0){

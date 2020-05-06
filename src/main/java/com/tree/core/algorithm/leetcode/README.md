@@ -60,7 +60,7 @@
 57  |[插入区间](https://leetcode.com/problems/insert-interval/)| [InsertInterval](./P0057InsertInterval.java)    | 
 58  |[最后单词的长度](https://leetcode.com/problems/length-of-last-word/)| [LengthOfLastWord](./P0058LengthOfLastWord.java)    | 
 59  |[螺旋矩阵2](https://leetcode.com/problems/spiral-matrix-ii/)| [SpiralMatrix2](./P0059SpiralMatrix2.java)    | 
-60  |[加一](https://leetcode.com/problems/plus-one/)| [PlusOne](./P0060PlusOne.java)    | 
+66  |[加一](https://leetcode.com/problems/plus-one/)| [PlusOne](./P0066PlusOne.java)    | 
 67  |[add binary](https://leetcode.com/problems/add-binary/)| [P0067AddBinary](./P0067AddBinary.java)    | 
 69  |[sqrt](https://leetcode.com/problems/sqrtx/)| [P0069Sqrt](./P0069Sqrt.java)    | 
 70  |[climbing stairs](https://leetcode.com/problems/climbing-stairs/)| [P0070ClimbingStairs](./P0070ClimbingStairs.java)    | 
