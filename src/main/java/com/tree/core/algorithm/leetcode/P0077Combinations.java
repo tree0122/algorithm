@@ -42,20 +42,15 @@ public class P0077Combinations {
         }
     }
 
-    private void p(int[] a, int k, boolean[] v, ArrayList<Integer> c, ArrayList<List<Integer>> list) {
-        if (0 == k) {
+    private void p(int n, int k, int i, ArrayList<Integer> c, ArrayList<List<Integer>> list) {
+        if (c.size() == k) {
             list.add(new ArrayList<>(c));
             return;
         }
-        for (int i = 0; i < a.length; i++) {
-            if (v[i]) {
-                continue;
-            }
-            c.add(a[i]);
-            v[i] = true;
-            p(a, k - 1, v, c, list);
+        for (int j = i; j <= n; j++) {
+            c.add(j);
+            p(n, k, j + 1, c, list);
             c.remove(c.size() - 1);
-            v[i] = false;
         }
     }
 
