@@ -53,5 +53,29 @@ class Solution42 {
         }
         return res;
     }
+
+    public int better(int[] a){
+        int left = 0;
+        int right = a.length - 1;
+        int ans = 0;
+        int LMax = a[left]; // a的[0,left]的最大值
+        int RMax = a[right]; // a的[right, len-1]的最大值
+        while (left < right){
+            LMax = Math.max(LMax, a[left]);
+            RMax = Math.max(RMax, a[right]);
+            // 潜台词：
+            // a[left] < a[right] <= RMax
+            // a[left] <= LMax
+            // 由于 a[left] < a[right] 是left才递增，故此时LMax < RMax
+            if (a[left] < a[right]){
+                ans += (LMax - a[left]);
+                left++;
+            }else {
+                ans += (RMax - a[right]);
+                right--;
+            }
+        }
+        return ans;
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -40,6 +40,27 @@ class Solution55 {
         return res;
     }
 
+    public int jump(int[] a){
+        if (a[0] == 0){
+            return -1;
+        }
+        /**
+         * d[i] 表示从i位置到len-1，所需的最小步数
+         * d[i] = min{d[j]} + 1, j的范围(i, i + a[i]]
+         */
+        int[] d = new int[a.length];
+        for (int i = d.length - 1; i >= 0; i--) {
+            d[i] = Integer.MAX_VALUE;
+            for (int j = i + 1; j < i + a[i] && j < a.length; j++) {
+                if (d[j] == Integer.MAX_VALUE){
+                    continue;
+                }
+                d[i] = Math.min(d[i], d[j] + 1);
+            }
+        }
+        return d[0];
+    }
+
     private boolean canJump(int[] a, int i) {
         if (i >= a.length - 1){
             return true;
@@ -55,12 +76,15 @@ class Solution55 {
     public boolean better(int[] a){
         int reach = 0; //能到达的最大位置
         for (int i = 0; i < a.length; i++) {
-            if (i > reach || reach >= a.length - 1){
-                break;
+            if (i <= reach){
+                reach = Math.max(reach, i + a[i]);
+                if (reach >= a.length - 1){
+                    return true;
+                }
             }
-            reach = Math.max(reach, i + a[i]);
+
         }
-        return reach >= a.length - 1;
+        return false;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

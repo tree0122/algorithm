@@ -44,6 +44,9 @@ package com.tree.core.algorithm.leetcode.leetcode.editor.cn;//给你一个整数
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution53 {
     public int maxSubArray(int[] nums) {
+        /**
+         * a[i]: nums的[i,len-1]范围内以i开头的最大子数组和
+         */
         int[] a = new int[nums.length];
         a[a.length - 1] = nums[a.length - 1];
         for (int i = a.length - 2; i >= 0; i--) {
@@ -54,6 +57,8 @@ class Solution53 {
             res = Math.max(res, a[i]);
         }
         return res;
+
+//        return get(nums, 0, nums.length - 1).max;
     }
 
     public int better(int[] a){
@@ -63,6 +68,34 @@ class Solution53 {
             res = Math.max(res, curSum);
         }
         return res;
+    }
+
+    public Status get(int[] a, int i, int j){
+        if (i == j){
+            return new Status(a[i], a[i], a[i], a[i]);
+        }
+        int m = (i + j) /2;
+        Status left = get(a, i, m);
+        Status right = get(a, m + 1, j);
+        int sum = left.sum + right.sum;
+        int leftMax = Math.max(left.leftMax, left.sum + right.leftMax);
+        int rightMax = Math.max(right.rightMax, left.rightMax + right.sum);
+        int max = Math.max(Math.max(left.max, right.max), left.rightMax + right.leftMax);
+        return new Status(sum,leftMax, rightMax, max);
+    }
+
+    class Status{
+        int sum;
+        int leftMax;
+        int rightMax;
+        int max;
+
+        public Status(int sum, int leftMax, int rightMax, int max) {
+            this.sum = sum;
+            this.leftMax = leftMax;
+            this.rightMax = rightMax;
+            this.max = max;
+        }
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

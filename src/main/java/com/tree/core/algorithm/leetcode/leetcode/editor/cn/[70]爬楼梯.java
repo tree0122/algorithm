@@ -51,14 +51,24 @@ class Solution70 {
         return climbStairs(n, i + 1) + climbStairs(n, i + 2);
     }
 
-    public int better(int n){
-        int i = 0, j = 1;
-        for (int k = 1; k <= n; k++) {
-            int t = j;
-            j = i+j;
-            i = t;
+    public int climbStairs1(int n) {
+        if (n <= 0){
+            return 0;
         }
-        return j;
+        if (n == 1){
+            return 1;
+        }
+        return climbStairs1(n - 1) + climbStairs1(n - 2);
+    }
+
+    public int better(int n){
+        int first = 0, second = 0, cur = 1;
+        for (int k = 1; k <= n; k++) {
+            first = second;
+            second = cur;
+            cur = first + second;
+        }
+        return cur;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

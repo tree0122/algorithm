@@ -49,15 +49,26 @@ class Solution46 {
         return res;
     }
 
+    /**
+     *
+     * @param a
+     * @param i 以i为分界，a的[0,i)已处理，a的[i, len-1]是待处理的
+     *          现要处理第i个元素
+     * @param res
+     */
     private void permute(int[] a, int i, List<List<Integer>> res) {
+        // 所有的数都处理完零
         if (i >= a.length){
             List<Integer> list = Arrays.stream(a).boxed().collect(Collectors.toList());
             res.add(list);
             return;
         }
         for (int k = i; k < a.length; k++) {
+            // 动态维护数组 a的[0,i]已处理，a的(i, len-1]是待处理的
             swap(a, i, k);
+            // 递归处理下一个数
             permute(a, i + 1, res);
+            // 撤销操作
             swap(a, i, k);
         }
     }

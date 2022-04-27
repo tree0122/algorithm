@@ -76,5 +76,29 @@ class Solution72 {
         r = Math.min(r, minDistance(w1, w2, i - 1, j - 1) + d);
         return r;
     }
+
+    public int better(String w1, String w2){
+        /**
+         * d[i][j]: w1[0, i) 变为 w[0, j)的代价
+         *
+         * d[i][j] = min{d[i-1][j], d[i][j], d[i-1][j-1] +{0,1}}
+         */
+        int[][] d = new int[w1.length() +1][w2.length() + 1];
+        for (int i = 0; i < d.length; i++) {
+            d[i][0] = i;
+        }
+        for (int i = 0; i < d[0].length; i++) {
+            d[0][i] = i;
+        }
+        for (int i = 1; i < d.length; i++) {
+            for (int j = 1; j < d[0].length; j++) {
+                d[i][j] = Math.min(
+                        Math.min(d[i - 1][j], d[i][j - 1]) + 1,
+                        d[i-1][j-1] + (w1.charAt(i) == w2.charAt(j) ? 0 : 1)
+                );
+            }
+        }
+        return d[w1.length()][w2.length()];
+    }
 }
 //leetcode submit region end(Prohibit modification and deletion)

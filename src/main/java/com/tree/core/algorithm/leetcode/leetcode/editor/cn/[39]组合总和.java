@@ -59,18 +59,20 @@ class Solution39 {
     }
 
     private void combinationSum(int[] candidates, int target, int i, List<Integer> list, List<List<Integer>> res) {
-        if (target < 0){
+        if (target < 0 || i == candidates.length){
             return;
         }
         if (target == 0){
             res.add(new ArrayList<>(list));
             return;
         }
-        for (int k = i; k < candidates.length; k++) {
-            list.add(candidates[k]);
-            combinationSum(candidates, target - candidates[k], i, list, res);
-            list.remove(list.size() - 1);
-        }
+        // 直接跳过
+        combinationSum(candidates, target, i + 1, list, res);
+
+        // 选择当前数
+        list.add(candidates[i]);
+        combinationSum(candidates, target - candidates[i], i, list, res);
+        list.remove(list.size() - 1);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

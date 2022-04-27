@@ -50,6 +50,7 @@ class Solution32 {
         if (s == null || s.length() == 0) {
             return 0;
         }
+
         LinkedList<Integer> stack = new LinkedList<>(); // stack一直放入'('字符的索引
         int b = 0, // b表示当前最长有效字符串的起始位置
                 res = 0,
@@ -66,6 +67,28 @@ class Solution32 {
                     res = Math.max(res, len);
                 }
             }
+        }
+        return res;
+    }
+
+    public int dp(String s){
+        /**
+         *
+         * d[i] = d[i - 1] + 2 + (d[i - d[i - 1] -2])
+         * 或者
+         * d[i] = d[i - 2] + 2
+         */
+        int res = 0;
+        int[] d = new int[s.length()];
+        for (int i = 1; i < d.length; i++) {
+            if (s.charAt(i) == ')'){
+                if (s.charAt(i - 1) == '('){
+                    d[i] = (i < 2 ? 0 : d[i - 2]) + 2;
+                }else if (i - d[i - 1] - 1 >= 0 && s.charAt(i - d[i - 1] - 1) == '('){
+                    d[i] = d[i - 1] + 2 + (i - d[i - 1] - 2 < 0 ? 0 : d[i - d[i - 1] -2]);
+                }
+            }
+            res = Math.max(res, d[i]);
         }
         return res;
     }

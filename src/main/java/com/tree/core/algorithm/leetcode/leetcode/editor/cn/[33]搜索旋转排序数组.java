@@ -94,13 +94,14 @@ class Solution33 {
             if (a[m] == target) {
                 return m;
             }
+            // 潜台词 a的(m, j]是升序的
             if (a[m] < a[j]) {
                 if (target > a[m] && target <= a[j]) {
                     i = m + 1;
                 } else {
                     j = m - 1;
                 }
-            } else {
+            } else {// 潜台词 a的[i, m)是升序的
                 if (target >= a[i] && target < a[m]) {
                     j = m - 1;
                 } else {

@@ -48,7 +48,7 @@ class Solution56 {
             if (cur[0] <= pre[1]){
                 pre[1] = Math.max(cur[1], pre[1]);
             }else {
-                list.add(pre);
+                list.add(cur);
                 pre = cur;
             }
         }

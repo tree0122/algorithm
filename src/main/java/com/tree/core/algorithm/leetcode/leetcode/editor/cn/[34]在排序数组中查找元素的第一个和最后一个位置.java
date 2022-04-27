@@ -45,7 +45,7 @@ package com.tree.core.algorithm.leetcode.leetcode.editor.cn;//给定一个按照
 class Solution34 {
     public int[] searchRange(int[] nums, int target) {
         int[] r = {-1, -1};
-        if (nums == nums || nums.length == 0 || nums[0] > target || nums[nums.length - 1] < target){
+        if (nums == null || nums.length == 0 || nums[0] > target || nums[nums.length - 1] < target){
             return r;
         }
         int i = 0, j = nums.length - 1, m = 0;
@@ -76,5 +76,44 @@ class Solution34 {
         r[1] = m;
         return r;
     }
+
+    public int firstEqual(int[] a, int t){
+        int left = 0, right = a.length;
+        // 搜索范围 [left, right)
+        while (left < right){
+            int m = (left + right) / 2;
+            if (a[m] == t){
+                // 下一次搜索范围 [left, m)
+                right = m;
+            }else if (a[m] < t){
+                // 下一次搜索范围 [m + 1, right)
+                left = m + 1;
+            }else {
+                // 下一次搜索范围 [left, m)
+                right = m;
+            }
+        }
+        return left;
+    }
+
+    public int lastEqual(int[] a, int t){
+        int left = 0, right = a.length;
+        // 搜索范围 [left, right)
+        while (left < right){
+            int m = (left + right) /2;
+            if (a[m] == t){
+                // 下一次搜索范围 [m + 1, right)
+                left = m + 1;
+            }else if (a[m] < t){
+                // 下一次搜索范围 [m + 1, right)
+                left = m + 1;
+            }else {
+                // 下一次搜索范围 [left, m)
+                right = m;
+            }
+        }
+        return left - 1;
+    }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)

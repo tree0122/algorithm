@@ -47,7 +47,18 @@ package com.tree.core.algorithm.leetcode.leetcode.editor.cn;//给定一个包含
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution75 {
     public void sortColors(int[] nums) {
-        for (int i = 0, j = nums.length - 1, c = 0; c < j; ) {
+        /**
+         * 循环不变量的定义
+         *
+         * i 表示数组[0，i)都是0，即i为值0范围的最后一个元素（不包括i）
+         * j 表示数组(j，len-1]都是2，即j为值2范围的第一个元素（不包括j）
+         * c 表示数组的当前遍历元素，所以 [i,c) 为1，[c, j]待确定
+         *
+         * all in [0, i) == 0
+         * all in [i, c) == 1
+         * all in (j, len -1] == 2
+         */
+        for (int i = 0, j = nums.length - 1, c = 0; c <= j; ) {
             if (nums[c] == 1){
                c++;
             }else if (nums[c] < 1){
