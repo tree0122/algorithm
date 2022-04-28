@@ -40,8 +40,8 @@ package com.tree.core.algorithm.leetcode.leetcode.editor.cn;//给定两个大小
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution4 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int left = (nums1.length + nums2.length)/2;
-        int right = (nums1.length + nums2.length + 1)/2;
+        int left = (nums1.length + nums2.length + 1)/2;
+        int right = (nums1.length + nums2.length + 2)/2;
         int first = findMedianSortedArrays(nums1, nums2, 0, 0, left);
         int second = findMedianSortedArrays(nums1, nums2, 0, 0, right);
         return (first + second) / 2.0;
@@ -58,7 +58,7 @@ class Solution4 {
             return Math.min(a1[i], a2[j]);
         }
         if (a1[i + k / 2 - 1] < a2[j + k / 2 - 1]){
-            return findMedianSortedArrays(a1, a2, i + k / 2 + 1, j, k - k / 2);
+            return findMedianSortedArrays(a1, a2, i + k / 2, j, k - k / 2);
         }else {
             return findMedianSortedArrays(a1, a2, i, j + k / 2, k - k / 2);
         }
